@@ -19,10 +19,9 @@ app.use(bodyParser.json())
 
 var student;
 fs.readFile('dist/students.json', (err, data) => {
-    console.log('in read file');
     if (err) throw err;
     student = JSON.parse(data);
-    console.log(student);
+    // console.log(student);
 });
 
 
