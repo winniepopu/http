@@ -108,7 +108,7 @@ function addStudentID(ID, Stname) {
             datatype: "json",
             success: function(data) {
 
-                if (data == 'existed') { alert(`The student ID :${ID} has existed, please check whether it's correct`); } else {
+                if (data == 'existed') { alert(`The student ID : ${ID} has existed, please check whether it's correct`); } else {
                     alert('Success add!');
                     if (list_count % 2 != 0) { loadData(); }
                 }
@@ -136,7 +136,7 @@ function delStudentID(ID) {
             data: inputData,
             datatype: "json",
             success: function(data) {
-                if (data == 'notExisted') { alert(`The student ID :${ID} has not existed, Please enter the right ID.`); } else {
+                if (data == 'notExisted') { alert(`The student ID : ${ID} has not existed, Please enter the right ID.`); } else {
                     alert('Success delete!');
                     if (list_count % 2 != 0) { loadData(); }
                 }
