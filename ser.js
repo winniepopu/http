@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 var student;
-fs.readFile('dist/students.json', (err, data) => {
+fs.readFile('students.json', (err, data) => {
     if (err) throw err;
     student = JSON.parse(data);
     // console.log(student);
@@ -36,7 +36,7 @@ app.post('/saveJSON', function(req, res) {
     } else {
         student[req.body['ID']] = req.body['name'];
         let data = JSON.stringify(student);
-        fs.writeFileSync('dist/students.json', data);
+        fs.writeFileSync('students.json', data);
         res.send('done');
     }
 
@@ -49,7 +49,7 @@ app.post('/delJSON', function(req, res) {
     } else {
         delete student[req.body['ID']];
         let data = JSON.stringify(student);
-        fs.writeFileSync('dist/students.json', data);
+        fs.writeFileSync('students.json', data);
         res.send('done');
 
     }
