@@ -87,19 +87,36 @@ function generateNameHtml(data, ID) {
         const element = `</br><h1>Hello, ${data[ID]}</h1>`;
         $("#ajax-specific").html(element);
     }
-
 }
 
+function check(value) {
+    char = ",;\"\'()<>-+=-?!^&@$%#./\\[]"
+    value_arr = String(value).split("")
+
+    for (i = 0; i < value_arr.length; i++) {
+        if (char.indexOf(value_arr[i]) >= 0) {
+            return true
+        }
+    }
+    return false
+}
 
 function addStudentID(ID, Stname) {
 
+
     if (ID == '' || Stname == '')
         alert("The columns can't be null, please enter the value");
-    else {
+
+    else if (check(ID) || check(Stname)) {
+        alert("不要亂打特殊字元! 又想駭我逆")
+    } else {
+
         const inputData = {};
         inputData['ID'] = ID;
         inputData['name'] = Stname;
 
+        if (ID == '' || Stname == '')
+            alert("The columns can't be null, please enter the value");
 
         $.ajax({
             url: 'saveJSON',
@@ -127,7 +144,9 @@ function delStudentID(ID) {
 
     if (ID == '')
         alert("The columns can't be null, please enter the value");
-    else {
+    else if (check(ID)) {
+        alert("不要亂打特殊字元! 又想駭我逆")
+    } else {
         inputData['ID'] = ID;
 
         $.ajax({
