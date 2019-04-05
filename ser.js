@@ -33,6 +33,8 @@ app.post('/readJSON', function(req, res) {
 app.post('/saveJSON', function(req, res) {
     if (student.hasOwnProperty(req.body['ID'])) {
         res.send("existed")
+    } else if (check(req.body['ID']) || check(req.body['name'])) {
+        res.send("hack")
     } else {
         student[req.body['ID']] = req.body['name'];
         let data = JSON.stringify(student);
@@ -55,6 +57,20 @@ app.post('/delJSON', function(req, res) {
     }
 
 });
+
+function check(value) {
+    char = ",;\"\'()<>-+=-?!^&@$%#./\\[]"
+    value_arr = String(value).split("")
+
+    for (i = 0; i < value_arr.length; i++) {
+        if (char.indexOf(value_arr[i]) >= 0) {
+            return true
+        }
+    }
+    return false
+}
+
+
 
 // app.get('/step1', (req, res) => {
 //     res.send('<h2>hello world</h1>')

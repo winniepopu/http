@@ -125,7 +125,9 @@ function addStudentID(ID, Stname) {
             datatype: "json",
             success: function(data) {
 
-                if (data == 'existed') { alert(`The student ID : ${ID} has existed, please check whether it's correct`); } else {
+                if (data == 'existed') { alert(`The student ID : ${ID} has existed, please check whether it's correct`); } else if (data == 'hack') {
+                    alert("拜託你不要再來了嗚嗚")
+                } else {
                     alert('Success add!');
                     if (list_count % 2 != 0) { loadData(); }
                 }
