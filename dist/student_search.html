@@ -15,9 +15,10 @@
 
     <div id="ajax-output"></div>
 
+    <!--  onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" -->
     <br/>
     <form id="ajax-search">
-        Student ID: <input type="text" name="studentID" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')"><br>
+        Student ID: <input type="text" name="studentID"><br>
         <button id="btn-search" type="submit">search specific student</button>
     </form>
 
@@ -26,14 +27,14 @@
 
     <br/>
     <form id="ajax-add">
-        Student ID: <input type="text" name="studentID" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')"><br> Student name: <input type="text" name="studentName" onkeyup="value=value.replace(/[\d]/g,'') " onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[\d]/g,''))"
+        Student ID: <input type="text" name="studentID"><br> Student name: <input type="text" name="studentName" onkeyup="value=value.replace(/[\d]/g,'') " onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[\d]/g,''))"
             maxlength=10 name="Numbers"><br>
         <button id="btn-add" type="submit">add new student</button>
     </form>
 
     <br/>
     <form id="ajax-del">
-        Student ID: <input type="text" name="studentID" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')"><br>
+        Student ID: <input type="text" name="studentID"><br>
         <button id="btn-del" type="submit">delete specific student</button>
     </form>
 
