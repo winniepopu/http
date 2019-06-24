@@ -1,0 +1,705 @@
+.docTitle {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.docTitle h1 {
+    font-size: 36px;
+    font-weight: 900;
+    /* font-size: 2.5rem; */
+    /* font-weight: 1200; */
+    /* font-family: 'Microsoft YaHei', 'Microsoft JhengHei'; */
+}
+
+#Doc-Loan {
+    padding: 4rem 0.5% 2% 1%;
+}
+
+p {
+    font-family: 'Microsoft JhengHei';
+}
+
+.doc-loan p {
+    font-size: 1.6rem;
+    /* font-weight: 1200; */
+}
+
+p,
+.doc-loan th,
+.doc-loan td {
+    letter-spacing: 2px;
+}
+
+.lnBox-title {
+    font-weight: bolder;
+}
+
+.ln-partTitle p {
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.ln-shrink {
+    width: 1.7rem;
+    display: inline-block;
+    cursor: pointer;
+    padding-bottom: 7px;
+    margin-right: 1rem;
+}
+
+.ln-shrink:hover {
+    filter: drop-shadow(1px 1px 4px rgba(113, 158, 177, 0.685));
+}
+
+.plus0,
+.plus1,
+.plus2,
+.plus3 {
+    display: none;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* wrap {
+    flex-wrap: wrap;
+}
+
+nowrap {
+    flex-wrap: nowrap;
+} */
+
+.loanTextbox {
+    width: 33%;
+    /* border-style: solid; */
+}
+
+.lnBox-discription p {
+    font-size: 1.2rem;
+}
+
+.lnBox-discription {
+    margin-left: 2.5rem;
+}
+
+
+/* PART - 核貸書 */
+
+#lnMoney {
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    margin-bottom: 2rem;
+}
+
+#lnMoney .lnBox-title {
+    margin-bottom: 0rem;
+}
+
+#lnMoney .lnBox-discription p {
+    margin-top: 0.2rem;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.loanTextbox .name {
+    margin: 0.2rem 0 0 2.5rem;
+}
+
+.loanTextbox .name p {
+    font-size: 1.5rem;
+}
+
+.tb-container {
+    /* width: 93%; */
+    margin-bottom: 2rem;
+    /*box-shadow: 1px 0px 5px rgb(226, 225, 225), -1px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225);
+    */
+}
+
+.tb-loan tbody tr:nth-of-type(1) {
+    /* background: rgb(244,248,254); */
+    /*background: -moz-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: -webkit-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: linear-gradient(to right, #bfbeff 1%, #feffe9 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#bfbeff', endColorstr='#feffe9', GradientType=1);*/
+}
+
+.tb-money .table-striped tbody tr {
+    background: rgba(0, 0, 0, 0)
+}
+
+.tb-money tbody tr:nth-of-type(1),
+.tb-product tbody tr:nth-of-type(1),
+.tb-people tbody tr:nth-of-type(1),
+.tb-S2B8section1 {
+    background: rgb(244, 248, 254);
+    /*background: -moz-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: -webkit-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: linear-gradient(to right, #bfbeff 1%, #feffe9 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#bfbeff', endColorstr='#feffe9', GradientType=1);
+    */
+}
+
+.tb-money tbody tr:nth-of-type(2),
+.tb-product tbody tr:nth-of-type(2),
+.tb-product tbody tr:nth-of-type(3) {
+    background: rgb(244, 248, 254);
+    /*background: -moz-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: -webkit-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: linear-gradient(to right, #bfbeff 1%, #feffe9 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#bfbeff', endColorstr='#feffe9', GradientType=1);
+    */
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    /* nowrap: false; */
+}
+
+.P3-3 .table td {
+    background-color: rgb(255, 255, 255);
+}
+
+#ln-part-1 .table td {
+    background-color: rgb(244, 248, 254);
+}
+
+
+
+
+.table {
+    table-layout: fixed;
+}
+
+.tb-money2 th {
+    background: white;
+    /*background: -moz-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: -webkit-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: linear-gradient(to right, #bfbeff 1%, #feffe9 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#bfbeff', endColorstr='#feffe9', GradientType=1);
+    */
+}
+
+.tb-loan td,
+.tb-loan th,
+.tb-money td,
+.tb-money th,
+.tb-people td,
+.tb-people th,
+.tb-comment th,
+.tb-comment tr,
+.tb-comment td {
+    border: 3px solid #ffffff;
+}
+
+.tb-product th,
+.tb-product,
+.tb-S2B8section1,
+.tb-S2B8section1 th,
+.tb-S2B8section2,
+.tb-S2B8section2 th {
+    border: 0px solid #ffffff;
+}
+
+.tb-product tr {
+    border-top: 3px solid #ffffff;
+}
+
+
+/* .tb-money tbody tr:nth-of-type(3), */
+
+.tb-loan tbody tr:nth-of-type(2),
+.tb-loan tbody tr:nth-of-type(3),
+.tb-people tbody tr:nth-of-type(2),
+.tb-people tbody tr:nth-of-type(3),
+.tb-comment tbody tr:nth-of-type(1),
+.tb-comment tbody tr:nth-of-type(2),
+#S2Brow9 {
+    background: rgb(242, 246, 253);
+    /* background: rgb(237, 237, 237); */
+    /* Old browsers */
+    /*background: -moz-linear-gradient(left, rgba(237, 237, 237, 1) 21%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 72%, rgba(243, 243, 243, 1) 83%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(left, rgba(237, 237, 237, 1) 21%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 72%, rgba(243, 243, 243, 1) 83%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to right, rgba(237, 237, 237, 1) 21%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 72%, rgba(243, 243, 243, 1) 83%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+.gradientDiv p {
+    color: white;
+}
+
+.tb-comment td {
+    width: 30%;
+}
+
+.gradientDiv {
+    background: rgb(111, 167, 215);
+    /*background: -moz-linear-gradient(left, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#3e6899', endColorstr='#ffffff', GradientType=1);*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#32618e+0,6ebfce+40,ffffff+100 */
+    /* background: #32618e;
+
+    background: -moz-linear-gradient(left, #32618e 0%, #6ebfce 40%, #ffffff 100%);
+
+    background: -webkit-linear-gradient(left, #32618e 0%, #6ebfce 40%, #ffffff 100%);
+
+    background: linear-gradient(to right, #32618e 0%, #6ebfce 40%, #ffffff 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#32618e', endColorstr='#ffffff', GradientType=1); */
+    /* IE6-9 */
+}
+
+
+/* part2 */
+
+.cardTitle-main {
+    margin: 0 0 1rem 0;
+}
+
+.cardTitle-main p {
+    text-align: left;
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+    /* display: inline-block; */
+}
+
+.cardP-main {
+    padding: 0.2rem 0;
+    /* text-align: center; */
+    /* line-height: 4rem; */
+}
+
+.cardP-main p {
+    /* padding-top: 13px; */
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+}
+
+.cardTitle p {
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+}
+
+.cardTitle-2 {
+    text-align: left;
+}
+
+.cardTitle-2 p {
+    font-size: initial;
+    display: inline-block;
+    color: gray;
+    font-weight: bold;
+}
+
+.ln-input {
+    display: inline-block;
+    width: 6rem;
+    background-color: white;
+}
+
+.cardWord,
+.cardWord-main {
+    display: inline-block;
+}
+
+.cardWord p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.cardWord-main p {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.cd .cdbigWord {
+    display: inline-block;
+    font-size: 36px;
+}
+
+.family-word .cdfamilyWord {
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.cardItem {
+    /* display: inline-block; */
+    /* flex-wrap: nowrap; */
+    /* height: 80px; */
+    text-align: center;
+    margin: 2px;
+    /*box-shadow: 1px 0px 5px rgb(226, 225, 225), -1px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225);*/
+    background-color: rgb(244, 248, 254);
+}
+
+.ln-repayment .cardItem {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.ln-repayment p {
+    font-size: initial;
+}
+
+.ln-dollor {
+    padding: 1rem;
+}
+
+.ln-dollor p {
+    font-size: initial;
+}
+
+.no-padding>.row>.col:not(.mainCard-1) {
+    padding: 0;
+}
+
+.bg-gray {
+    background-color: #e8e7eed3;
+    padding: 1.6rem;
+}
+
+.bg-gray-1 {
+    background-color: #e8e7eed3;
+    padding: 0.5rem;
+}
+
+.bg-white {
+    /* background-color: rgba(255, 255, 255, 1); */
+    padding: 0rem 1rem;
+}
+
+.bg-gray-1 p,
+.bg-white p {
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+}
+
+.cardItem p {
+    margin-bottom: 0;
+}
+
+.cardcontainer {
+    background-color: white;
+    margin: 15px;
+    border-radius: 15px;
+    border: 2.5px solid rgb(196, 215, 245);
+    /*box-shadow: 1px 0px 5px rgb(249, 239, 239), 2px -1px 0px rgb(226, 225, 225), -1px 1px 0px rgb(226, 225, 225), 0px -1px 2px rgb(226, 225, 225);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+}
+
+.cardcontainer:hover {
+    cursor: pointer;
+    border: 6px solid rgb(196, 215, 245)
+}
+
+
+.cardcontainer2 {
+    background-color: white;
+    margin: 9px;
+    border-radius: 15px;
+    border: 2px solid rgb(201, 207, 216);
+
+}
+
+.cardcontainer2:hover {
+    cursor: pointer;
+    border: 6px solid rgb(201, 207, 216);
+
+}
+
+.main-money {
+    width: 32%;
+    /* flex-shrink: 0 */
+}
+
+.main-money .sm-card {
+    width: 100%;
+}
+
+.padding-1002 {
+    padding: 0 0 0 2rem
+}
+
+.padding-10 {
+    padding: 1rem 0
+}
+
+
+#mainCard-1 {
+    padding: 1rem;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aad6e4+0,ffffff+100 */
+    background: rgba(111, 167, 215, 0.3);
+    /* Old browsers */
+    /*background: -moz-linear-gradient(left, #aad6e4 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(left, #aad6e4 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to right, #aad6e4 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#aad6e4', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+#mainCard-2 {
+    padding: 1rem;
+    /* background-color: rgb(200, 214, 228); */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6eb0ce+0,ffffff+100 */
+    background: rgba(111, 167, 215, 0.3);
+    /* Old browsers */
+    /*background: -moz-linear-gradient(left, #6eb0ce 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(left, #6eb0ce 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to right, #6eb0ce 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#6eb0ce', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+.width-0 {
+    /* width: 3000px */
+    overflow: hidden;
+}
+
+#Main {
+    /* padding: 0 6rem; */
+}
+
+#mainCard-1 p,
+#mainCard-2 p {
+    font-weight: 900;
+}
+
+#MainCard-1 a:hover,
+#MainCard-2 a:hover {
+    text-decoration-line: none;
+
+}
+
+.lnPart {
+    margin: 3rem 0.5rem;
+}
+
+.padding-2 {
+    padding: 1rem 2.5rem;
+}
+
+.padding-2-1 {
+    padding: 1rem 1rem;
+}
+
+.width17rem {
+    width: 17rem;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.lnCard-icon {
+    width: 5rem;
+}
+
+.lnCard-icon-family {
+    vertical-align: middle;
+    display: inline-block;
+    width: 4rem;
+    margin: 0 3px;
+}
+
+.family-word {
+    display: inline-block;
+    margin-bottom: 0rem;
+}
+
+.manyCards {
+    margin-bottom: 2rem;
+}
+
+#lnP3-improve .exp-icon {
+    max-width: 200px;
+}
+
+.exp-icon {
+    padding: 1rem 0rem;
+    text-align: center;
+    line-height: 4rem;
+    /* background-color: white; */
+
+    /* width: 12rem; */
+}
+
+.exp-icon p {
+    padding-top: 13px;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+    /* width: 12rem; */
+}
+
+.exp-p {
+    vertical-align: middle;
+    line-height: 9rem;
+}
+
+.exp-icon img {
+    /* text-align: center; */
+    width: 9rem;
+}
+
+.manyCards .cardWord img {
+    margin-top: 1rem;
+    width: 2rem;
+}
+
+
+/* .indexTitle p {
+
+    font-size: initial;
+} */
+
+.sm-word {
+    width: 33%;
+}
+
+#lnSummary {
+    position: relative;
+    height: 8rem;
+    /* height: 30px; */
+    /* background-image: url('../media/ln-bar.png'); */
+}
+
+#ln-improve-pic {
+    position: relative;
+    height: 15rem;
+}
+
+
+/* 
+.ln-summary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+} */
+
+.width33 {
+    /* z-index: 5; */
+    height: 5rem;
+    width: 20%;
+    padding-top: 5px;
+    line-height: 80px;
+    /* border: 3px solid rgba(125, 185, 232, 1); */
+}
+
+.ln-summary p {
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.ln-summary {
+    /* color: white; */
+    height: 5rem;
+    width: 100%;
+    /* background-size: contain; */
+    background-size: 100% 100px;
+    background-repeat: no-repeat;
+    background-image: url('https://i.imgur.com/reM7MfM.png');
+}
+
+.ln-improve {
+    /* height: 10rem; */
+    width: 100%;
+    /* background-size: contain; */
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    /*background-image: url('../media/gray-div.png');*/
+}
+
+.ln-improve p {
+    display: inline-block;
+    color: gray;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.cdP2-title {
+    /* display: inline-block; */
+    /* color: gray; */
+}
+
+.cdP2-word {}
+
+.cdP2-word p {
+    font-size: 24px;
+    font-weight: bold;
+    /* display: inline-block; */
+}
+
+.bg-yellow {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+57,cbeaef+100 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9f4f4+0,ffffff+100 */
+    background: rgb(244, 248, 254);
+    /* Old browsers */
+    /*background: -moz-linear-gradient(left, rgba(249, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(left, rgba(249, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(to right, rgba(249, 244, 244, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f9f4f4', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+.cardItem-2 {
+    text-align: center;
+    /* margin: 6px; */
+    /* box-shadow: 1px 0px 0px rgb(226, 225, 225), 0px 0px 1px rgb(226, 225, 225), 0px 1px 0px rgb(226, 225, 225), 0px -1px 0px rgb(226, 225, 225); */
+    /* box-shadow: 1px 0px 0px rgb(251, 229, 229), 0px 0px 1px rgb(251, 229, 229), 0px 1px 0px rgb(251, 229, 229), 0px -1px 0px rgb(251, 229, 229); */
+}
+
+.padding-2-2 {
+    padding: 0.5rem 1rem 0 1rem;
+}
+
+.P2row1,
+.P2row2 {
+    margin: 2rem 9px;
+    box-shadow: 1px 0px 0px rgb(226, 225, 225), 0px 0px 1px rgb(226, 225, 225), 0px 1px 0px rgb(226, 225, 225), 0px -1px 0px rgb(226, 225, 225);
+}
+
+.P3-1 {
+    margin: 4rem 0;
+}
+
+#lnP3-improve {
+    margin: 1rem 0;
+    padding: 1rem;
+}

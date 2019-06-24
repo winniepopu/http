@@ -1,0 +1,193 @@
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    width: auto;
+}
+
+.S5title-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-number {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.casenum-item {
+    /* color: rgb(0, 0, 0); */
+    padding: 0.15em;
+}
+
+.S5title-right {
+    position: absolute;
+    width: auto;
+    right: 0;
+}
+
+.S5right-item {
+    align-items: center;
+    display: flex;
+    padding: 2em;
+}
+
+.page-jump p {
+    margin-bottom: 0
+}
+
+.page-log {
+    margin: 0 0.5rem;
+}
+
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+.section-case {
+    position: relative;
+    top: 20px
+}
+
+.caseTitle {
+    /* background: white; */
+    position: relative;
+    /* top: 100px; */
+    /*border: 2px rgba(0, 0, 0, 1) solid;*/
+    /* height: 100px; */
+    width: auto;
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.case {
+    /* background: white; */
+    position: relative;
+    /* top: 100px; */
+    /*border: 2px rgba(0, 0, 0, 1) solid;*/
+    /* height: 80px; */
+    width: auto;
+    margin: 0.2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.data {
+    /*border: 4px rgba(0, 0, 0, 1) solid;*/
+    position: relative;
+    height: auto;
+    width: auto;
+    /*padding-left: 1em;
+    padding-right: 1em;*/
+    margin: 0.1rem;
+    /*display: flex;*/
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.case2 {
+    position: relative;
+    /* top: 120px; */
+}
+
+.S5title {
+    background-color: rgba(220, 221, 221, 1);
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.S5content {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    justify-content: center;
+}
+
+.wait {
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+.S5icon {
+    width: 2.5rem;
+}
+
+.S5icon2 {
+    width: 7.5rem;
+}
+
+.S5icon2:hover {
+    cursor: pointer;
+}
+
+.situation p {
+    line-height: 2.5rem
+}
+
+.data-1,
+.data-2 {
+    flex: 1;
+}
+
+
+.data-3,
+.data-4,
+.data-5 {
+    flex: 2;
+}
+
+
+.data-6,
+.data-7 {
+    flex: 2.5;
+}
+
+
+.data-8 {
+    flex: 3;
+}
+
+.data-9 {
+    flex: 4;
+}
+
+.case:hover {
+    cursor: pointer;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+9,ffffff+100&0+17,0.25+49,0+100 */
+}
+
+/* .case:hover>div {
+    background: rgba(201, 202, 202, 1);
+}
+
+.case:hover>div>p {
+    background: rgba(201, 202, 202, 1);
+    color: white;
+} */
+
+.case {
+    background-color: rgba(255, 255, 255, 0.616)
+}
+
+.case:hover {
+    /* background: rgba(201, 202, 202, 1); */
+    /* box-shadow: 3px -1px 9px rgb(226, 225, 225), -4px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225); */
+    box-shadow: 3px -1px 9px rgb(167, 156, 156), -4px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225);
+}
+
+.case:hover>div>p {
+    /* background: rgba(201, 202, 202, 1); */
+    /* color: white; */
+}

@@ -1,5 +1,8 @@
 var list_count = 0;
 $(document).ready(function() {
+
+
+
     $('#btn-list').click((event) => {
         event.preventDefault()
         if (list_count % 2 == 0)
@@ -31,7 +34,7 @@ $(document).ready(function() {
 });
 
 
-// const dataURL = "students.json";
+
 
 function loadData() {
     $.ajax({
@@ -102,8 +105,6 @@ function check(value) {
 }
 
 function addStudentID(ID, Stname) {
-
-
     if (ID == '' || Stname == '')
         alert("The columns can't be null, please enter the value");
 
