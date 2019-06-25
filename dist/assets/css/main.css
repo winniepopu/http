@@ -377,6 +377,21 @@ div.S1Arow2 {
     font-weight: bold;
 }
 
+#S1Amen:hover {
+    cursor: pointer
+}
+
+.S1User {
+    margin-left: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.S1Amen:hover {
+    cursor: pointer
+}
+
+
 #S1Arow2 img {
     cursor: pointer;
     width: 1.5vw;

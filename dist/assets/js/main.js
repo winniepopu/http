@@ -512,115 +512,152 @@ function SwitchPages(page, side) {
         </div>
         <div class="left">
             <div class="content">
-
-                <section class="S2row scrollable-section" id="S2A">
-                    <div class="S2subrow S2topic" id="S2Atopic">
+                <section class=" scrollable-section S2column" id="S2A">
+                    <div class="S2subrow1 S2topic" id="S2Atopic">
                         <p>業務人員申請內容</p>
                     </div>
-                    <div class="S2subrow" id="S2Arow1">
-                        <div class="S2A1item" id="S2A101">
+                    <div class="S2subrow1 S2row S2Hcenter" id="S2Arow1">
+                        <div class="S2A1item S2row" id="S2A101">
                             <p class="S2A1title">業務員/單位 :</p>
-                            <p class="S2A1content S2A1text">林銘洲/消金業務部</p>
+                            <p class="S2A1content S2A1text" name="username">林銘洲/消金業務部</p>
                         </div>
-                        <div class="S2A1item" id="S2A102">
+                        <div class="S2A1item S2row" id="S2A102">
                             <p class="S2A1title">核貸總金額 :</p>
-                            <p class="S2A1content S2A1number">700000</p>
+                            <p class="S2A1content S2A1number" name="money">700000</p>
                         </div>
                     </div>
-                    <div class="S2subrow" id="S2Arow2">
-                        <div class="S2A2colume" id="S2A2colume1">
-                            <div class="S2A2item" id="S2A201">
-                                <img class="S2AAicon" src="assets//media//S2A01.png">
-                                <p class="S2A2title">貸款產品</p>
-                                <p class="S2A2content S2A2text">42信用貸款</p>
+
+                    <div class="S2subrow1 S2bgBlue S2Hcenter S2border-b-gray" id="S2Brow2">
+                        <div class="S2align S2Hcenter">
+                            <div class="S2wrap S2spaceAround ">
+                                <div class="S2column">
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">貸款產品</p>
+                                        <p class="S2content S2content1" name="product">
+                                            <!-- 42信用貸款 -->
+                                        </p>
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">資金用途別</p>
+                                        <p class="S2content S2content1" name="purpose">
+                                            <!-- 家庭週轉金 -->
+                                        </p>
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">月付金</p>
+                                        <p class="S2content S2content1" name="monthPay">
+                                            <!-- 14514 -->
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="S2column">
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">還款方式</p>
+                                        <p class="S2content S2content1" name="payWay">
+                                            <!-- 平均攤還本息 -->
+                                        </p>
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">保證人提供</p>
+                                        <div class="S2content1" name="guarantor">
+                                            <img class="S2icon1" src="assets//media//S2No.png">
+                                        </div>
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">貸款金額</p>
+                                        <p class="S2content S2content1" name="money">
+                                            <!-- 700000 -->
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="S2A2item" id="S2A202">
-                                <img class="S2AAicon" src="assets//media//S2A02.png">
-                                <p class="S2A2title">貸款金額</p>
-                                <p class="S2A2content S2A2number">700000</p>
-                            </div>
-                            <div class="S2A2item" id="S2A203">
-                                <img class="S2AAicon" src="assets//media//S2A03.png">
-                                <p class="S2A2title">月付金</p>
-                                <p class="S2A2content S2A2number">14514</p>
-                            </div>
-                            <div class="S2A2item" id="S2A204">
-                                <img class="S2AAicon" src="assets//media//S2A04.png">
-                                <p class="S2A2title">還款方式</p>
-                                <p class="S2A2content S2A2text">平均攤還本息</p>
-                            </div>
-                            <div class="S2A2item" id="S2A207">
-                                <img class="S2AAicon" src="assets//media//S2A05.png">
-                                <p class="S2A2title">保證人提供</p>
-                                <p class="S2A2content S2A2text">否</p>
-                            </div>
-                            <div class="S2A2item" id="S2A208">
-                                <img class="S2AAicon" src="assets//media//S2A06.png">
-                                <p class="S2A2title">風險性資產</p>
-                                <p class="S2A2content S2A2number">522375</p>
-                            </div>
-                            <div class="S2A2item" id="S2A209">
-                                <img class="S2AAicon" src="assets//media//S2A07.png">
-                                <p class="S2A2title">資金用途別</p>
-                                <p class="S2A2content S2A2text">家庭週轉金</p>
-                            </div>
-                            <div class="S2A2item" id="S2A210">
-                                <img class="S2AAicon" src="assets//media//S2A08.png">
-                                <p class="S2A2title">風險定價期數</p>
-                                <p class="S2A2content S2A2text">豐利金一段式</p>
+                            <div class="S2wrap S2spaceAround ">
+                                <div class="S2column ">
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">風險定價期數</p>
+                                        <p class="S2content S2content1" name="periodNum">
+                                            <!-- 豐利金一段式 -->
+                                        </p>
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">風險定價</p>
+                                        <div class="S2content1 " name="riskPricing">
+                                            <img class="S2icon1" src="assets//media//S2Yes.png">
+                                        </div>
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline">
+                                        <p class="S2title S2title1">風險性資產</p>
+                                        <p class="S2content S2content1" name="riskAsset">
+                                            <!-- 522,375 -->
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="S2column">
+
+
+                                    <div class="S2Vcenter S2Tcenter " id="S2A211">
+                                        <div class="flex-wrapper S2icon2">
+                                            <div class="single-chart" name="riskWeight">
+                                                <svg viewBox="0 0 36 36"
+                                                    class="circular-chart blue">
+                                                    <path class="circle-bg"
+                                                        d="M18 2.0845
+                                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                                a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="circle"
+                                                        stroke-dasharray="50, 100"
+                                                        d="M18 2.0845
+                                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <text x="18" y="20.35"
+                                                        class="percentage">%</text>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="S2item3 S2row S2Hcenter">
+                                        <p class="S2title S2title3 S2Tcenter">風險權數</p>
+
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div>
-                        <div class="S2A2colume " id="S2A2colume2">
-                            <div class="S2A2item1" id="S2A205">
-                                <p class="S2A2title">風險定價</p>
-                                <div class="S2A2icon1"><img class="S2AAicon1" src="assets//media//S2A09.png"></div>
-                            </div>
-                            <div class="S2A2item1" id="S2A206">
-                                <p class="S2A2title">風險權數</p>
-                                <div class="S2A2icon1"><img class="S2AAicon2" src="assets//media//S2A13.png"></div>
-                            </div>
-                        </div>
+
+
+
+
                     </div>
-                    <div class="S2subrow" id="S2Arow3">
-                        <div class="S2A3colume" id="S2A3colume1">
-                            <div class="S2A3item flex-fill" id="S2A301">
-                                <p class="S2A3title">期數</p>
-                                <p class="S2A3content">1-60</p>
+
+                    <div class="S2subrow1 S2Hcenter " id="S2Arow3">
+                        <div class="S2align S2wrap S2spaceBetween">
+                            <div class="S2A3item S2column S2Hcenter" id="S2A301">
+                                <p class="S2title S2Tcenter">期數</p>
+                                <p class="S2content S2Tcenter">1-60</p>
                             </div>
-                            <div class="S2A3item flex-fill" id="S2A302">
-                                <p class="S2A3title">利率</p>
-                                <p class="S2A3content">105個金放款/房貸指標(月)+7.89%，機動</p>
+                            <div class="S2A3item S2column S2Hcenter" id="S2A302">
+                                <p class="S2title S2Tcenter">利率</p>
+                                <p class="S2content S2Tcenter">105個金放款/房貸指標(月)+7.89%，機動</p>
                             </div>
-                        </div>
-                        <div class="S2A3colume flex-fill" id="S2A3colume2">
-                            <div class="S2A3item flex-fill" id="S2A303">
-                                <p class="S2A3title">目前利率</p>
-                                <p class="S2A3content">8.95%</p>
-                            </div>
-                            <div class="S2A3item flex-fill" id="S2A304">
-                                <p class="S2A3title">CustType</p>
-                                <p class="S2A3content">D</p>
-                            </div>
-                            <div class="S2A3item flex-fill" id="S2A305">
-                                <p class="S2A3title">風險性資產</p>
-                                <p class="S2A3content">522375</p>
-                            </div>
-                            <div class="S2A3item flex-fill" id="S2A306">
-                                <p class="S2A3title">風險性資產比率</p>
-                                <p class="S2A3content">74.6%</p>
+                            <div class="S2A3item S2column S2Hcenter" id="S2A303">
+                                <p class="S2title S2Tcenter">目前利率</p>
+                                <p class="S2content S2Tcenter">8.95%</p>
                             </div>
                         </div>
+
                     </div>
-                    <div class="S2subrow" id="S2Arow4">
-                        <table border="1" class="tb-money table table-bordered dt-responsive nowrap">
-                            <tr>
+                    <div class="S2subrow1 S2Hcenter" id="S2Arow4">
+
+                        <table class="S2align S2tb1 S2tbBd S2spaceBetween">
+                            <tr class="S2bgBlue">
                                 <th>+ A 放款利率</th>
                                 <th colspan="3">- B 參考價格</th>
                                 <th rowspan="2">= C 合理收益</th>
                                 <th colspan="2">+ D 整體貢獻度說明</th>
                                 <th colspan="4">= E 合理利潤</th>
                             </tr>
-                            <tr>
+                            <tr class="S2bgBlue">
                                 <th>預定乘作利率(首年)</th>
                                 <th>資金成本</th>
                                 <th>營運成本</th>
@@ -646,37 +683,56 @@ function SwitchPages(page, side) {
                                 <td>6.948</td>
                             </tr>
                         </table>
-                        
+
+
+
                     </div>
-                    <div class="S2analysis S2subrow" id="S2Aanalysis">
-                        <div class="S2analysiscont" id="S2Aanalysiscont">
-                            
-                            <p>請注意 : 為符合銀行法相關規定，請依下列注意事項辦理 :"<p>
-                            <p>一、自用住宅放款或消費性放款，不得要求借款人提供連帶保證人；以取得足額擔保時，不得要求借款人提供保證人。</p>
-                            <p>二、因自用住宅放款或消費性放款而爭取之保證人，其保證契約自成立之日起，有效期間不得逾十五年，但經保證人書面同意者，不在此限"</p>
-                                                       
+
+                    <div class="S2subrow1 S2Hcenter">
+                        <div class="S2align S2wrap S2spaceBetween">
+                            <div class="S2A5item S2row S2baseline S2width50per" id="S2A501">
+                                <p class="S2title  S2padding S2width40per">風險性資產</p>
+                                <p class="S2content  S2Tcenter S2bgBlue S2width60per">
+                                    522,375
+                                </p>
+                            </div>
+                            <div class="S2A5item S2row S2baseline S2width50per" id="S2A502">
+                                <p class="S2title  S2padding S2width40per">風險性資產比率</p>
+                                <p class="S2content  S2Tcenter S2bgBlue S2width60per">74.6%
+                                </p>
+                            </div>
+
                         </div>
-                        <div class="S2analysisicon" id="S2Aanalysisicon">
-                            <img src="assets//media//S2A20.png">
-                        </div>
+
                     </div>
-                    <div class="S2noticerow S2subrow" id="S2Anoticerow">
-                        <div class="S2noticeText" id="S2AnoticeText">
-                            <p>請注意 : 為符合銀行法相關規定，請依下列注意事項辦理 :"<p>
-                            <p>一、自用住宅放款或消費性放款，不得要求借款人提供連帶保證人；以取得足額擔保時，不得要求借款人提供保證人。</p>
-                            <p>二、因自用住宅放款或消費性放款而爭取之保證人，其保證契約自成立之日起，有效期間不得逾十五年，但經保證人書面同意者，不在此限"</p>
+
+
+
+
+                    <div class="S2subrow1  S2Hcenter" id="S2Anoticerow">
+                        <div class="S2align S2wrap S2flexStart">
+                            <div id="S2Anotice">
+                                <img class="S2notice" src="assets//media//S2A12.png">
+                            </div>
+                            <div class="S2noticeText" id="S2AnoticeText">
+                                <p>請注意 : 為符合銀行法相關規定，請依下列注意事項辦理 :"
+                                    <p>
+                                        <p>一、自用住宅放款或消費性放款，不得要求借款人提供連帶保證人；以取得足額擔保時，不得要求借款人提供保證人。
+                                        </p>
+                                        <p>二、因自用住宅放款或消費性放款而爭取之保證人，其保證契約自成立之日起，有效期間不得逾十五年，但經保證人書面同意者，不在此限"
+                                        </p>
+                            </div>
                         </div>
-                        <div class="S2notice" id="S2Anotice">
-                            <img src="assets//media//S2A12.png">
-                        </div>
+
+
                     </div>
-                    
+
                 </section>
-                <section class="S2row scrollable-section" id="S2B">
-                    <div class="S2subrow S2topic" id="S2Btopic">
+                <section class=" scrollable-section" id="S2B">
+                    <div class="S2subrow1 S2topic" id="S2Btopic">
                         <p>核貸委員審核紀錄</p>
                     </div>
-                    <div class="S2subrow" id="S2Brow1">
+                    <div class="S2subrow1" id="S2Brow1">
                         <div class="S2B1item" id="S2B101">
                             <p class="S2B1title">實際簽核人員/單位</p>
                             <p class="S2B1content"></p>
@@ -686,79 +742,105 @@ function SwitchPages(page, side) {
                             <p class=" S2B1content">2019/04/16 15:34</p>
                         </div>
                     </div>
-                    <div class="S2subrow" id="S2Brow2">
-                        <div class="S2B2colume">
-                            <div class="S2B2item" id="S2B201">
-                                <p class="S2B2title">簽核結果</p>
-                                <div class="S2B2content">
-                                    <img class="S2B2icon" src="assets//media//S2A09.png">
+                    <div class="S2subrow1 S2Hcenter S2bgBlue S2border-b-gray" id="S2Brow2">
+                        <div class="S2align S2wrap S2Hcenter">
+                            <div class="S2row S2spaceAround ">
+                                <div class="S2column">
+                                    <div class="S2item1 S2row S2baseline" id="S2B202">
+                                        <p class="S2title S2title1">同意項目</p>
+                                        <p class="S2content S2content1">核貸條件</p>
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline" id="S2B301">
+                                        <p class="S2title S2title1">貸款產品</p>
+                                        <div class="S2content S2content1">
+                                            <input class="S2text1 S2Tcenter" id="S2B3text1"
+                                                name="product" type="text">
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="S2column">
+                                    <div class="S2item1 S2row S2baseline" id="S2B201">
+                                        <p class="S2title S2title1">簽核結果</p>
+                                        <div class="S2content S2content1">
+                                            <img class="S2icon1" src="assets//media//S2Yes.png">
+                                        </div>
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline" id="S2B304">
+                                        <p class="S2title S2title1">金額</p>
+                                        <div class="S2content S2content1">
+                                            <input class="S2text1 S2Tcenter" id="S2B3text4"
+                                                name="value" type="text">
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
-                            <div class="S2B2item" id="S2B202">
-                                <p class="S2B2title">同意項目</p>
-                                <p class="S2B2content S2B2text">核貸條件</p>
-                            </div>
-                            <div class="S2B2item" id="S2B203">
-                                <p class="S2B2title">初始建議額度</p>
-                                <p class="S2B2content S2B2text">123456</p>
+                            <div class="S2row S2spaceAround ">
+                                <div class="S2column ">
+                                    <div class="S2item1 S2row S2baseline" id="S2B302">
+                                        <p class="S2title S2title1">提供保證人</p>
+                                        <div class="S2content1">
+                                            <input class="medium" type="radio" name="a" />
+                                        </div>
+
+                                    </div>
+                                    <div class="S2item1 S2row S2baseline" id="S2B203">
+                                        <p class="S2title  S2title1">初始建議額度</p>
+                                        <p class="S2content S2content1">123456</p>
+                                    </div>
+                                </div>
+                                <div class="S2column">
+                                    <div class="S2item1 S2row S2baseline" id="S2B303">
+                                        <p class="S2title S2title1">總期數</p>
+                                        <div class="S2content S2content1">
+                                            <input class="S2text1 S2Tcenter" name="SumPeriod"
+                                                id="S2B3text3" type="text">
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="S2B2colume">
-                            <div class="S2B2item" id="S2B204">
-                                <p class="S2B2title">審核意見</p>
-                                <p class="S2B2content S2B2text">55555</p>
-                            </div>
-                        </div>
+
                     </div>
-                    <div class="S2subrow" id="S2Brow3">
-                        <div id="S2B3bigcolume1">
-                            <div class="S2B3colume" id="S2B3colume1">
-                                <div class="S2B3item" id="S2B301">
-                                    <p class="S2B3title">貸款產品</p>
-                                    <input class="S2B3text" type="text">
-                                </div>
-                                <div class="S2B3item" id="S2B302">
-                                    <p class="S2B3title">提供保證人</p>
-                                </div>
-                                <div class="S2B3item" id="S2B303">
-                                    <p class="S2B3title">總期數</p>
-                                    <input class="S2B3text" type="text">
-                                </div>
+                    <div class="S2subrow1 S2Hcenter S2border-b-gray">
+                        <div class="S2row S2align S2baseline">
+                            <p class="S2title S2title1">審核意見</p>
+                            <div class="S2row S2baseline Width70">
+                                <input class="S2content S2text6" type="text" name="description">
                             </div>
-                            <div class="S2B3colume" id="S2B3colume2">
-                                <div class="S2B3item" id="S2B304">
-                                    <p class="S2B3title">金額</p>
-                                    <input class="S2B3text" type="text">
-                                </div>
-                                <div class="S2B3item" id="S2B305">
-                                    <p class="S2B3title">可使用額度</p>
-                                    <input class="S2B3text" type="text">
-                                </div>
+                        </div>
+
+                    </div>
+                    <div class="S2subrow1 S2Hcenter" id="S2Brow3">
+                        <div class="S2align S2wrap">
+                            <div id="S2Bnotice">
+                                <img class="S2notice" src="assets//media//S2A12.png">
                             </div>
                             <div class="S2noticeText" id="S2BnoticeText">
-                            <p>請注意 : 為符合銀行法相關規定，請依下列注意事項辦理 :"<p>
-                            <p>一、自用住宅放款或消費性放款，不得要求借款人提供連帶保證人；以取得足額擔保時，不得要求借款人提供保證人。</p>
-                            <p>二、因自用住宅放款或消費性放款而爭取之保證人，其保證契約自成立之日起，有效期間不得逾十五年，但經保證人書面同意者，不在此限"</p>
+                                <p>請注意 : 為符合銀行法相關規定，請依下列注意事項辦理 :"
+                                    <p>
+                                        <p>一、自用住宅放款或消費性放款，不得要求借款人提供連帶保證人；以取得足額擔保時，不得要求借款人提供保證人。
+                                        </p>
+                                        <p>二、因自用住宅放款或消費性放款而爭取之保證人，其保證契約自成立之日起，有效期間不得逾十五年，但經保證人書面同意者，不在此限"
+                                        </p>
+                            </div>
                         </div>
-                        </div>
-                        <div id="S2B3bigcolume2">
-                            
-                            
-                        <div class="S2notice" id="S2Bnotice">
-                            <img src="assets//media//S2A12.png">
-                        </div>
-                        </div>
+
+
                     </div>
-                    <div class="S2subrow" id="S2Brow4">
-                        <table border="1" class="tb-money table table-bordered dt-responsive nowrap">
-                            <tr>
+
+                    <div class="S2subrow1 S2Hcenter" id="S2Brow4">
+                        <table class="S2tb1 S2align S2spaceBetween S2tbBd">
+                            <tr class="S2bgBlue">
                                 <th>+ A 放款利率</th>
                                 <th colspan="3">- B 參考價格</th>
                                 <th rowspan="2">= C 合理收益</th>
                                 <th colspan="2">+ D 整體貢獻度說明</th>
                                 <th colspan="4">= E 合理利潤</th>
                             </tr>
-                            <tr>
+                            <tr class="S2bgBlue">
                                 <th>預定乘作利率(首年)</th>
                                 <th>資金成本</th>
                                 <th>營運成本</th>
@@ -785,8 +867,8 @@ function SwitchPages(page, side) {
                             </tr>
                         </table>
                     </div>
-                    <div class="S2subrow" id="S2Brow5">
-                        <table border="1" class="tb-people table table-bordered dt-responsive nowrap">
+                    <div class="S2subrow2 S2Hcenter" id="">
+                        <table class="S2tb2 S2align S2spaceBetween">
                             <tr>
                                 <th></th>
                                 <th>姓名</th>
@@ -798,175 +880,207 @@ function SwitchPages(page, side) {
                                 <th>本案金額權限</th>
                                 <th>簽核日期</th>
                             </tr>
-                            <tr>
-                                <th>實際簽核</th>
-                                <th>小藍</th>
-                                <th>消金業務部</th>
-                                <th>消金業務部推廣</th>
-                                <th>(非核委)</th>
-                                <th>企鵝</th>
-                                <th rowspan="2">700000</th>
-                                <th rowspan="2">700000</th>
-                                <th rowspan="2">2019/04/22</th>
+                            <tr class="S2bgBlue">
+                                <th class="S2border-b-white S2bgGray">實際簽核</th>
+                                <td class="S2border-b-white">小藍</td>
+                                <td class="S2border-b-white">消金業務部</td>
+                                <td class="S2border-b-white">消金業務部推廣</td>
+                                <td class="S2border-b-white">(非核委)</td>
+                                <td class="S2border-b-white">企鵝</td>
+                                <td class="S2border-b-white">700000</td>
+                                <td class="S2border-b-white">700000</td>
+                                <td class="S2border-b-white">2019/04/22</td>
                             </tr>
-                            <tr>
-                                <td>簽核人員</td>
+                            <tr class="S2bgBlue">
+                                <th class="S2bgGray">簽核人員</th>
                                 <td>小藍</td>
                                 <td>消金業務部</td>
                                 <td>消金業務部推廣</td>
                                 <td>(非核委)</td>
                                 <td>企鵝</td>
+                                <td>700000</td>
+                                <td>700000</td>
+                                <td>2019/04/22</td>
                             </tr>
                         </table>
                     </div>
-                    <div class="S2subrow d-flex" id="S2Brow6">
-                        <div class="S2B6colume flex-fill d-flex" id="S2B6colume2">
-                            <div class="S2B6item1 flex-fill" id="S2B605">
-                                <p class="S2B6title">風險性資產</p>
-                                <p class="S2B6content S2B7number">522375</p>
-                            </div>
-                            <div class="S2B6item1 flex-fill" id="S2B607">
-                                <p class="S2B6title">風險性資產比率</p>
-                                <div class="S2B6icon">
-                                <img class="S2B6icon2" src="assets//media//S2A13.png"></div>
-                            </div>
-                            <div class="S2B6item1 flex-fill" id="S2B608">
-                                <p class="S2B6title">風險權數</p>
-                                <div class="S2B6icon">
-                                <img class="S2B6icon2" src="assets//media//S2A14.png"></div>
-                            </div>
-                        </div>
-                        <div class="S2B6colume flex-fill d-flex" id="S2B6colume1">
-                            <div class="S2B6item flex-fill" id="S2B601">
-                                <p class="S2B6title">資金用途</p>
-                                <p class="S2B6content S2B6text">家庭周轉金</p>
-                            </div>
-                            <div class="S2B6item flex-fill" id="S2B602">
-                                <p class="S2B6title">風險定價</p>
-                                <div class="S2B6icon">
-                                <img class="S2B6icon1" src="assets//media//S2A09.png"></div>
-                                
-                            </div>
-                                
-                            
-                            <div class="S2B6item flex-fill" id="S2B603">
-                                <p class="S2B6title">風險定價期數</p>
-                                <div class="S2B6icon">
-                                <img class="S2B6icon1" src="assets//media//S2A10.png"></div>
-                                
-                            </div>
-                                
-                            
-                            <div class="S2B6item flex-fill" id="S2B604">
-                                <p class="S2B6title">建議額度</p>
-                                <p class="S2B6content S2B6text">700000</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class="S2subrow d-flex" id="S2Brow8">
-                        <div class="S2B8section d-flex">
-                            <div class="S2B8colume d-flex" id="S2B8colume1">
-                                <div class="S2B8item" id="S2B801">
-                                    <p class="S2B8title">貸款產品</p>
-                                    <input class="S2B8content1 S2B8text" type="text">
+                    <div class="S2subrow1 d-flex  S2bgBlue S2Hcenter S2border-b-gray"
+                        id="S2Brow6">
+                        <div class="S2align S2Hcenter S2wrap">
+                            <div class="S2nowrap">
+                                <div class="S2column flex-fill d-flex" id="S2B6colume1">
+                                    <div class="S2item1 flex-fill S2row S2baseline" id="S2B601">
+                                        <p class="S2title S2title1">資金用途</p>
+                                        <p class="S2content S2content1">家庭周轉金</p>
+                                    </div>
+                                    <div class="S2item1 flex-fill S2row S2baseline" id="S2B605">
+                                        <p class="S2title S2title1">風險性資產</p>
+                                        <p class="S2content S2content1">522,375</p>
+                                    </div>
                                 </div>
-                                <div class="S2B8item" id="S2B802">
-                                    <p class="S2B8title">連保</p>
-                                    
-                                        <input type="checkbox" class="S2B8checkbox">
-                                    
-                                    <p class="S2B8title">一般</p>    
-                                    <input type="checkbox" class="S2B8checkbox">
+                                <div class="S2column flex-fill d-flex" id="S2B6colume2">
+                                    <div class="S2item1 flex-fill S2row S2baseline" id="S2B602">
+                                        <p class="S2title S2title1">風險定價</p>
+                                        <div class="S2content1">
+                                            <img class="S2icon1" src="assets//media//S2Yes.png">
+                                        </div>
+                                    </div>
+                                    <div class="S2item1 flex-fill S2row S2baseline" id="S2B604">
+                                        <p class="S2title S2title1">建議額度</p>
+                                        <p class="S2content S2content1">700000</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="S2B8colume d-flex" id="S2B8colume3">
-                                <div class="S2B8item" id="S2B803">
-                                    <p class="S2B8title">金額</p>
-                                    <input class="S2B8content S2B8text" type="text">
-                                </div>
-                                <div class="S2B8item" id="S2B804">
-                                    <p class="S2B8title">可使用額度</p>
-                                    <input class="S2B8content S2B8text" type="text">
-                                </div>
-                            </div>
-                            <div class="S2B8colume d-flex flex-nowrap" id="S2B8colume4">
-                                <div class="S2B8item" id="S2B805">
-                                    <p class="S2B8title">總期數</p>
-                                    <input class="S2B8content S2B8text" type="text">
-                                </div>
-                                <div class="S2B8item" id="S2B806">
-                                    <p class="S2B8title">展期次數</p>
-                                    <input class="S2B8content S2B8text" type="text">
-                                </div>
-                                <div class="S2B8item" id="S2B807">
-                                    <p class="S2B8title">利率</p>
-                                    <input class="S2B8content S2B8text" type="text">
-                                </div>
-                        
-                            </div>
 
-                        </div>
-                        <div class="S2B8section1 d-flex flex-fill">
-                            <table border="1" class="tb-S2B8section1 table table-bordered dt-responsive nowrap">
-                            <tr>
-                                <th><p>案件送簽性質</p><p>簽核</p></th>
-                                <th><p>簽核結果</p>
-                                <img class="S2B81icon" src="assets//media//S2A09.png"></th>
-                                <th><p>同意項目</p><p>核貸條件</p></th>
-                                <th><p>是否為最高核委</p>
-                                <img class="S2B81icon" src="assets//media//S2A10.png"></th>
-                                <th><p>調整核貸金額原因</p><p>ss</p></th>
-                                <th><p>審核意見</p><p>ddd</p></th>
-                                
-                            </tr>
-                            
-                        </table>
-                        </div>
-                        <div class="S2B8section2 d-flex flex-fill">
-                            <table border="1" class="tb-S2B8section2 table table-bordered dt-responsive nowrap">
-                            <tr>
-                                <th><p>第</p><input type="text">
-                                <p>期起</p></th>
-                                <th><p>利率</p>
-                                <p>機動</p></th>
-                                <th><p>105個金放款/房貸指標(月)+7.89%</p></th>
-                                <th><p>目前利率</p>
-                                <p>9%</p></th>
-                            </tr>
-                            
-                        </table>
-                        </div>
-                        
-                    </div>
-                    <div class="S2subrow" id="S2Brow9">
-                        
-                        <div class="S2B9colume" id="S2B9columne1">
-                            <p class="S2B9title">說明</p>
-                            <div id="prompt">
-                                <img id="S2set" src="assets//media//S2A17.png">
+                            </div>
+                            <div class="S2nowrap">
+                                <div class="S2column flex-fill d-flex " id="S2B6colume3">
+                                    <div class="S2item1 flex-fill S2row S2baseline" id="S2B603">
+                                        <p class="S2title S2title1">風險定價期數</p>
+                                        <div class="S2content1">
+                                            <img class="S2icon1" src="assets//media//S2No.png">
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="S2row flex-fill d-flex" id="S2B6colume4">
+                                    <div class="S2item3 flex-fill S2column" id="S2B607">
+                                        <p class="S2title S2title3">風險性資產比率</p>
+
+                                        <div class="single-chart" name="riskWeight2">
+                                            <svg viewBox="0 0 36 36"
+                                                class="circular-chart blue">
+                                                <path class="circle-bg"
+                                                    d="M18 2.0845
+                                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <path class="circle" stroke-dasharray="50, 100"
+                                                    d="M18 2.0845
+                                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <text x="18" y="20.35"
+                                                    class="percentage">50%</text>
+                                            </svg>
+                                        </div>
+
+                                    </div>
+                                    <div class="S2item3 flex-fill S2column " id="S2B608">
+                                        <p class="S2title S2title3 S2Tcenter">風險權數</p>
+                                        <!-- <div class="flex-wrapper S2icon2"> -->
+                                        <div class="single-chart" name="riskWeight3">
+                                            <svg viewBox="0 0 36 36"
+                                                class="circular-chart blue">
+                                                <path class="circle-bg"
+                                                    d="M18 2.0845
+                                                                    a 15.9155 15.9155 0 0 1 0 31.831
+                                                                    a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <path class="circle" stroke-dasharray="60, 100"
+                                                    d="M18 2.0845
+                                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <text x="18" y="20.35"
+                                                    class="percentage">60%</text>
+                                            </svg>
+                                        </div>
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="S2B9columne" id="S2B9columne2">
-                            <textarea class="S2B9text" id="S2tags" cols="50" rows="4"></textarea>
+                    </div>
+                    <div class="S2subrow1 d-flex S2wrap S2Hcenter" id="S2Brow8">
+                        <div class="S2row S2nowrap">
+                            <div class="S2row S2item1 S2baseline">
+                                <p class="S2title S2title1">案件送簽性質</p>
+                                <p class="S2content S2content1">簽核</p>
+                            </div>
+                            <div class="S2row S2item1 S2baseline">
+                                <p class="S2title S2title1">同意項目</p>
+                                <p class="S2content S2content1">核貸條件</p>
+                            </div>
+                        </div>
+                        <div class="S2row S2nowrap">
+                            <div class="S2row S2item1 S2baseline">
+                                <p class="S2title S2title1">簽核結果</p>
+                                <div class="S2content1">
+                                    <img class="S2icon1" src="assets//media//S2Yes.png">
+                                </div>
+                            </div>
+                            <div class="S2row S2item1 S2baseline">
+                                <p class="S2title S2title1">是否為最高核委</p>
+                                <div class="S2content1">
+                                    <img class="S2icon1" src="assets//media//S2No.png">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <div class="S2subrow1 S2Hcenter">
+                        <div class="S2row S2align S2baseline">
+                            <p class="S2title S2title2  ">調整核貸金額原因</p>
+                            <div class="S2row S2baseline Width70">
+                                <input class="S2content S2text6" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="S2subrow1 S2Hcenter">
+                        <div class="S2row S2align S2baseline">
+                            <p class="S2title S2title2 ">審核意見</p>
+                            <div class="S2row S2baseline Width70">
+                                <input class="S2content S2text6" type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="S2subrow1 S2Hcenter">
+                        <div class="S2row S2align inputCount" id="S2B9columne1">
+                            <div class="S2column S2Hcenter">
+                                <div class="S2row" id="S2B9remark">
+                                    <p class="S2title S2title2 ">說明</p>
+                                    <div id="prompt">
+                                        <img id="S2promptSet" title="字彙管理"
+                                            src="assets//media//S2A17.png">
+                                    </div>
+                                    <div id="S2promptSetWindow">
+                                        <div class="S2row S2toprow">
+                                            <input placeholder="新增字彙" class="S2text7"
+                                                id="S2promptInput" name="" type="text">
+                                            <div class="S2Vcenter S2Hcenter S2promtIcon" id="">
+                                                <img class="S2notice" id="S2promptAdd"
+                                                    src="assets//media//add.png">
+                                            </div>
+                                        </div>
+                                        <div id="S2promptDatabase">
+                                            <div class="S2Vcenter S2promptData">
+                                                <!-- <p class="S2promptVocabulary S2Vcenter">55</p>
+                                                            <div class="S2Vcenter S2Hcenter S2promtIcon">
+                                                                <img class="S2notice S2promptDel" src="assets//media//close_1.png">
+                                                            </div> -->
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="S2title count ">0</div>
+
+                            </div>
+                            <div class="S2B9columne inputCount Width70" id="S2B9columne2">
+                                <textarea maxlength="120" class="S2B9text Width100" id="S2tags"
+                                    cols="50" rows="4"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </section>
-                <section class="S2row scrollable-section" id="S2C">
-                    <div id="S2Ccolume1"></div>
-                    <div id="S2Ccolume2"></div>
-                    <div id="S2Ccolume3"></div>
-                    <div id="S2Ccolume4"></div>
-                </section>
-                <section class="S2row scrollable-section" id="S2D">
-                    <div class="S2subrow S2topic" id="S2Dtopic">
+                <section class=" scrollable-section" id="S2D">
+                    <div class="S2subrow1 S2topic" id="S2Dtopic">
                         <p>核委意見</p>
                     </div>
-                    <div class="S2subrow" id="S2Drow1">
-                        <table border="1" class="tb-money table table-bordered dt-responsive nowrap">
-                            <tr>
+                    <div class="S2subrow1 S2Hcenter" id="S2Drow1">
+                        <table class="S2tb1 S2align S2tbBd S2spaceBetween">
+                            <tr class="S2bgBlue">
                                 <th rowspan="2">關係人姓名</th>
                                 <th rowspan="2">ID</th>
                                 <th colspan="4">Score 13 評分模組</th>
@@ -974,7 +1088,7 @@ function SwitchPages(page, side) {
                                 <th rowspan="2">J10信用評分</th>
                                 <th rowspan="2">信用等級</th>
                             </tr>
-                            <tr>
+                            <tr class="S2bgBlue">
                                 <th>卡別</th>
                                 <th>Score 13</th>
                                 <th>Risk Grade</th>
@@ -998,8 +1112,8 @@ function SwitchPages(page, side) {
                             </tr>
                         </table>
                     </div>
-                    <div class="S2subrow" id="S2Drow2">
-                        <table border="1" class="tb-people table table-bordered dt-responsive nowrap">
+                    <div class="S2subrow2 S2Hcenter" id="">
+                        <table class="S2tb2 S2align S2spaceBetween">
                             <tr>
                                 <th></th>
                                 <th>姓名</th>
@@ -1011,868 +1125,1075 @@ function SwitchPages(page, side) {
                                 <th>本案金額權限</th>
                                 <th>簽核日期</th>
                             </tr>
-                            <tr>
-                                <th>實際簽核</th>
-                                <th>小藍</th>
-                                <th>消金業務部</th>
-                                <th>消金業務部推廣</th>
-                                <th>(非核委)</th>
-                                <th>企鵝</th>
-                                <th rowspan="2">700000</th>
-                                <th rowspan="2">700000</th>
-                                <th rowspan="2">2019/04/22</th>
+                            <tr class="S2bgBlue">
+                                <th class="S2border-b-white S2bgGray">實際簽核</th>
+                                <td class="S2border-b-white">小藍</td>
+                                <td class="S2border-b-white">消金業務部</td>
+                                <td class="S2border-b-white">消金業務部推廣</td>
+                                <td class="S2border-b-white">(非核委)</td>
+                                <td class="S2border-b-white">企鵝</td>
+                                <td class="S2border-b-white">700000</td>
+                                <td class="S2border-b-white">700000</td>
+                                <td class="S2border-b-white">2019/04/22</td>
                             </tr>
-                            <tr>
-                                <td>簽核人員</td>
+                            <tr class="S2bgBlue">
+                                <th class="S2bgGray">簽核人員</th>
                                 <td>小藍</td>
                                 <td>消金業務部</td>
                                 <td>消金業務部推廣</td>
                                 <td>(非核委)</td>
                                 <td>企鵝</td>
+                                <td>700000</td>
+                                <td>700000</td>
+                                <td>2019/04/22</td>
                             </tr>
                         </table>
                     </div>
-                    <div class="S2subrow" id="S2Drow3">
-                        <div class="S2D3colume" id="S2D3colume1">
-                            <div class="S2D3item2" id="S2D301">
-                                <p class="S2D3title">借貸人月收入</p><input class="S2D3text" type="text">
+                    <div class="S2subrow1 S2Hcenter" id="S2Drow3">
+                        <div class="S2align S2wrap S2Hcenter">
+                            <div class="S2row S2Hcenter">
+                                <div class="S2column" id="">
+                                    <div class=" S2baseline S2row S2spaceBetween S2item2"
+                                        id="S2D301">
+                                        <p class="S2title S2title3">借貸人月收入</p>
+                                        <div class="">
+                                            <input class="S2content S2text1 S2Tcenter"
+                                                name="income_mon" type="text">
+                                        </div>
+                                    </div>
+                                    <div class=" S2baseline S2row S2spaceBetween S2item2"
+                                        id="S2D302">
+                                        <p class="S2title S2title3">建議額度</p>
+                                        <div class="">
+                                            <input class="S2content S2text1 S2Tcenter"
+                                                name="money_recommend" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="S2column" id="">
+                                    <div class="S2baseline S2row S2spaceBetween S2item2"
+                                        name="pay_afterAdjust" id="S2D305">
+                                        <p class="S2title S2title3">本次貸款支出調整為</p>
+                                        <div class="">
+                                            <input class=" S2content S2text1 S2Tcenter"
+                                                type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2baseline S2row S2spaceBetween S2item2"
+                                        id="S2D306">
+                                        <p class="S2title S2title3">致當月結餘金額為</p>
+                                        <div class="">
+                                            <input class=" S2content S2text1 S2Tcenter"
+                                                name="benefit" type="text">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="S2D3item2" id="S2D302">
-                                <p class="S2D3title">建議額度</p><input class="S2D3text" type="text">
+
+
+                            <div class="S2column S2Hcenter" id="">
+                                <div class=" S2baseline S2row S2spaceBetween S2item2"
+                                    id="S2D303">
+                                    <p class="S2title S2title3">本次核貸金額加計無擔外債為月收入金額約</p>
+                                    <div class="S2row S2baseline">
+                                        <input class="S2content S2text2 S2Tcenter"
+                                            name="Loan_incomeMon_times" type="text">
+                                        <p class="S2D3unit">倍</p>
+                                    </div>
+                                </div>
+                                <div class=" S2baseline S2row S2spaceBetween S2item2"
+                                    id="S2D304">
+                                    <p class="S2title S2title3">全體金融機構之無擔飽受信總餘額(含本次)為年所得之
+                                    </p>
+                                    <div class="S2row S2baseline">
+                                        <input class="S2content S2text2 S2Tcenter"
+                                            name="Loan_incomeYear_per" type="text">
+                                        <p class="S2D3unit">%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="S2row S2Hcenter">
+                                <div class="S2baseline S2row S2spaceBetween S2item2"
+                                    id="S2D307">
+                                    <p class="S2title S2title4">本次貸款支出/總月收入</p>
+                                    <div class="S2row S2baseline S2content4">
+                                        <input class="S2content S2text2 S2Tcenter"
+                                            name="thisExpand_monPer" type="text">
+                                        <p class="S2D3unit">%</p>
+                                    </div>
+                                </div>
+                                <div class="S2baseline S2row S2spaceBetween S2item2"
+                                    id="S2D308">
+                                    <p class="S2title S2title4">總貸款支出/總月收入</p>
+                                    <div class="S2row S2baseline S2content4">
+                                        <input class="S2content S2text2 S2Tcenter"
+                                            name="allExpand_monPer" type="text">
+                                        <p class="S2D3unit">%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="S2row S2Hcenter">
+                                <div class="S2baseline S2row S2spaceBetween S2item2"
+                                    id="S2D309">
+                                    <p class="S2title S2title4">總月支出/總月收入</p>
+                                    <div class="S2row S2baseline S2content4">
+                                        <input class="S2content S2text2 S2Tcenter"
+                                            name="allMonExpand_monPer" type="text">
+                                        <p class="S2D3unit">%</p>
+                                    </div>
+                                </div>
+                                <div class=" S2row S2spaceBetween S2item2" id="S2D309">
+                                    <p class="S2title S2title4 " id="S2mar">案件送簽性質</p>
+                                    <p class="S2content S2content4">簽核</p>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="S2subrow1  S2Hcenter S2Vcenter" id="S2Dnoticerow">
+                        <div class="S2align S2wrap">
+                            <div id="S2Dnotice">
+                                <img class="S2notice" src="assets//media//S2A12.png">
+                            </div>
+
+                            <div class="S2noticeText S2Vcenter" id="S2DnoticeText">
+                                <p class="S2D3content S2D3text">本案經評分卡核准，需經一位適當層級授信人員簽核</p>
                             </div>
                         </div>
-                        <div class="S2D3colume" id="S2D3colume2">
-                            <div class="S2D3item2" id="S2D303">
-                                <p class="S2D3title">本次核貸金額加計無擔外債為月收入金額約</p><input class="S2D3text" type="text">
-                                <p class="S2D3unit">倍</p>
+
+
+                    </div>
+                    <div class="S2subrow1 S2Hcenter" id="">
+                        <div class="S2align S2wrap">
+                            <div class="S2row S2Vcenter S2D4sel">
+                                <div class="S2tab">
+                                    <button class="tablinks"
+                                        onclick="creatProduct(event, 'FirstProduct')">01</button>
+                                    <button class="tablinks"
+                                        onclick="creatProduct(event, 'SecondProduct')">02</button>
+                                    <button class="tablinks"
+                                        onclick="creatProduct(event, 'ThirdProduct')">03</button>
+                                </div>
                             </div>
-                            <div class="S2D3item2" id="S2D304">
-                                <p class="S2D3title">全體金融機構之無擔飽受信總餘額(含本次)為年所得之</p><input class="S2D3text" type="text">
-                                <p class="S2D3unit">%</p>
+                            <div class="S2row S2Vcenter">
+                                <div class="S2row S2Vcenter">
+                                    <input class="medium" type="radio" name="b" />
+                                    <p>同業務人員</p>
+                                </div>
+                                <div class="S2row S2Vcenter">
+                                    <input class="medium" type="radio" name="b" />
+                                    <p>同模型</p>
+                                </div>
+                                <div class="S2row S2Vcenter">
+                                    <input class="medium" type="radio" name="b" />
+                                    <p>同核貸委員</p>
+                                </div>
+                                <div class="S2row S2Vcenter">
+                                    <input class="medium" type="radio" name="b" />
+                                    <p>自行輸入</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="S2D3colume" id="S2D3colume3">
-                            <div class="S2D3item2" id="S2D305">
-                                <p class="S2D3title">本次貸款支出調整為</p><input class="S2D3text" type="text">
+
+                    </div>
+                    <div class="S2subrow1 S2Hcenter" id="">
+                        <div class="S2align S2wrap">
+                            <div class="S2tabcontent" id="FirstProduct">
+                                <div class="S2wrap S2bgBlue S2Drow4S S2spaceAround" id="">
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">貸款產品</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">連保</p>
+                                        <div class="S2content3 S2Tcenter">
+                                            <input class="medium" type="radio" name="f" />
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">一般</p>
+                                        <div class="S2content3 S2Tcenter">
+                                            <input class="medium" type="radio" name="f" />
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">金額</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">可使用額度</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">總期數</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text2 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">展期次數</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text2 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">利率</p>
+                                        <p class="S2contenta S2D42text"></p>
+                                    </div>
+                                </div>
+                                <div class="S2D4section3 S2bgBlue" id="">
+                                    <div class="S2wrap S2spaceAround S2subrow3 S2D4section3-1">
+                                        <div class="S2column" id="S2D43colume1-1">
+                                            <div class="S2title3 S2Vcenter">
+                                                <p class="S2title">計算風險定價</p>
+                                            </div>
+                                            <div class="S2title3 S2Vcenter">
+                                                <p class="S2title S2title3 S2Vcenter">計算全案收益
+                                                </p>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="S2column" id="S2D43colume2-1">
+                                            <div class="S2row">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">資金用途別</p>
+                                                </div>
+                                                <div class="S2conselect2 S2content1 S2Vcenter">
+                                                    <select class="S2contenta S2select2"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="S2row">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">還款方式</p>
+                                                </div>
+                                                <div class="S2conselect2 S2content1 S2Vcenter">
+                                                    <select class="S2contenta S2select2"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="S2column" id="">
+                                            <div class="S2row S2Vcenter">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">風險定價</p>
+                                                </div>
+                                                <input class="medium" type="radio" name="g" />
+                                                <input class="medium" type="radio" name="g" />
+                                            </div>
+                                            <div class="S2row S2baseline">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title ">風險定價期數</p>
+                                                </div>
+                                                <div class="S2content5 S2Vcenter">
+                                                    <select class="S2contenta S2select1"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="S2column" id="">
+                                            <div class="S2row S2content5 S2Vcenter">
+                                                <p class="S2title">風險權數</p>
+                                                <div class="S2contenta">
+                                                    <input class="S2text2 S2Tcenter"
+                                                        type="text">
+                                                </div>
+                                                <p class="S2title">%</p>
+                                            </div>
+                                            <div class="S2row S2content5 S2Vcenter">
+                                                <p class="S2title">先收息期數</p>
+                                                <div class="S2contenta">
+                                                    <input class="S2text1 S2Tcenter"
+                                                        type="text">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="S2D4section3-1">
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="h" />
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="i" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="j" />
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="k" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="l" />
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="m" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="S2D3item2" id="S2D306">
-                                <p class="S2D3title">致當月結餘金額為</p><input class="S2D3text" type="text">
+                            <div class="S2tabcontent" id="SecondProduct">
+                                <div class="S2wrap S2bgBlue S2Drow4S S2spaceAround" id="">
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">貸款產品</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">連保</p>
+                                        <div class="S2content3 S2Tcenter">
+                                            <input class="medium" type="radio" name="n" />
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">一般</p>
+                                        <div class="S2content3 S2Tcenter">
+                                            <input class="medium" type="radio" name="n" />
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">金額</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">可使用額度</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">總期數</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text2 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">展期次數</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text2 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">利率</p>
+                                        <p class="S2contenta S2D42text"></p>
+                                    </div>
+                                </div>
+                                <div class="S2D4section3 S2bgBlue" id="">
+                                    <div class="S2wrap S2spaceAround S2subrow3 S2D4section3-1">
+                                        <div class="S2column" id="S2D43colume1-1">
+                                            <div class="S2title3 S2Vcenter">
+                                                <p class="S2title">計算風險定價</p>
+                                            </div>
+                                            <div class="S2title3 S2Vcenter">
+                                                <p class="S2title S2title3 S2Vcenter">計算全案收益
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="S2column" id="S2D43colume2-1">
+                                            <div class="S2row">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">資金用途別</p>
+                                                </div>
+                                                <div class="S2conselect2 S2content1 S2Vcenter">
+                                                    <select class="S2contenta S2select2"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="S2row">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">還款方式</p>
+                                                </div>
+                                                <div class="S2conselect2 S2content1 S2Vcenter">
+                                                    <select class="S2contenta S2select2"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="S2column" id="">
+                                            <div class="S2row S2Vcenter">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">風險定價</p>
+                                                </div>
+                                                <input class="medium" type="radio" name="o" />
+                                                <input class="medium" type="radio" name="o" />
+                                            </div>
+                                            <div class="S2row S2baseline">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title ">風險定價期數</p>
+                                                </div>
+                                                <div class="S2content5 S2Vcenter">
+                                                    <select class="S2contenta S2select1"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="S2column" id="">
+                                            <div class="S2row S2content5 S2Vcenter">
+                                                <p class="S2title">風險權數</p>
+                                                <div class="S2contenta">
+                                                    <input class="S2text2 S2Tcenter"
+                                                        type="text">
+                                                </div>
+                                                <p class="S2title">%</p>
+                                            </div>
+                                            <div class="S2row S2content5 S2Vcenter">
+                                                <p class="S2title">先收息期數</p>
+                                                <div class="S2contenta">
+                                                    <input class="S2text1 S2Tcenter"
+                                                        type="text">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="S2D4section3-1">
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio" name="p">
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="q" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="r" />
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="s" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="t" />
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="u" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="S2D3colume" id="S2D3colume4">
-                            <div class="S2D3item3" id="S2D307">
-                                <p class="S2D3title">本次貸款支出/總月收入</p><input class="S2D3text" type="text">
-                                <p class="S2D3unit">%</p>
-                            </div>
-                            <div class="S2D3item3" id="S2D308">
-                                <p class="S2D3title">總貸款支出/總月收入</p><input class="S2D3text" type="text">
-                                <p class="S2D3unit">%</p>
-                            </div>
-                            <div class="S2D3item3" id="S2D309">
-                                <p class="S2D3title">總月支出/總月收入</p><input class="S2D3text" type="text">
-                                <p class="S2D3unit">%</p>
+                            <div class="S2tabcontent" id="ThirdProduct">
+                                <div class="S2wrap S2bgBlue S2Drow4S S2spaceAround" id="">
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">貸款產品</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">連保</p>
+                                        <div class="S2content3 S2Tcenter">
+                                            <input class="medium" type="radio" name="v" />
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">一般</p>
+                                        <div class="S2content3 S2Tcenter">
+                                            <input class="medium" type="radio" name="v">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">金額</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">可使用額度</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text1 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">總期數</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text2 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2baseline" id="">
+                                        <p class="S2title">展期次數</p>
+                                        <div class="S2contenta">
+                                            <input class="S2text2 S2Tcenter" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="S2row S2Vcenter" id="">
+                                        <p class="S2title">利率</p>
+                                        <p class="S2contenta S2D42text"></p>
+                                    </div>
+                                </div>
+                                <div class="S2D4section3 S2bgBlue" id="">
+                                    <div class="S2wrap S2spaceAround S2subrow3 S2D4section3-1">
+                                        <div class="S2column" id="S2D43colume1-1">
+                                            <div class="S2title3 S2Vcenter">
+                                                <p class="S2title">計算風險定價</p>
+                                            </div>
+                                            <div class="S2title3 S2Vcenter">
+                                                <p class="S2title S2title3 S2Vcenter">計算全案收益
+                                                </p>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="S2column" id="S2D43colume2-1">
+                                            <div class="S2row">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">資金用途別</p>
+                                                </div>
+                                                <div class="S2conselect2 S2content1 S2Vcenter">
+                                                    <select class="S2contenta S2select2"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="S2row">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">還款方式</p>
+                                                </div>
+                                                <div class="S2conselect2 S2content1 S2Vcenter">
+                                                    <select class="S2contenta S2select2"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="S2column" id="">
+                                            <div class="S2row S2Vcenter">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title">風險定價</p>
+                                                </div>
+                                                <input class="medium" type="radio" name="w" />
+                                                <input class="medium" type="radio" name="w" />
+                                            </div>
+                                            <div class="S2row S2baseline">
+                                                <div class="S2title3 S2Vcenter">
+                                                    <p class="S2title ">風險定價期數</p>
+                                                </div>
+                                                <div class="S2content5 S2Vcenter">
+                                                    <select class="S2contenta S2select1"
+                                                        name="請選擇">
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                        <option value="1">
+                                                            1
+                                                        </option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+
+
+                                        </div>
+                                        <div class="S2column" id="">
+                                            <div class="S2row S2content5 S2Vcenter">
+                                                <p class="S2title">風險權數</p>
+                                                <div class="S2contenta">
+                                                    <input class="S2text2 S2Tcenter"
+                                                        type="text">
+                                                </div>
+                                                <p class="S2title">%</p>
+                                            </div>
+                                            <div class="S2row S2content5 S2Vcenter">
+                                                <p class="S2title">先收息期數</p>
+                                                <div class="S2contenta">
+                                                    <input class="S2text1 S2Tcenter"
+                                                        type="text">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="S2D4section3-1">
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="x" />
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="y" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="z" />
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="aa" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="S2wrap S2spaceAround S2subrow3 S2D4section3-1-1">
+                                            <div class="S2row S2prod">
+                                                <p>第</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>期起</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="ab" />
+                                                </div>
+                                                <p>固定</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <div class="">
+                                                    <input class="medium" type="radio"
+                                                        name="ac" />
+                                                </div>
+                                                <p>機動</p>
+                                                <select class="S2select2 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <select class="S2select3 S2Tcenter" name="請選擇">
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                    <option value="1">1</option>
+                                                </select>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                            <div class="S2row S2prod">
+                                                <p>目前利率</p>
+                                                <input class="S2text4 S2Tcenter" type="text">
+                                                <p>%</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="S2noticerow S2subrow" id="S2Dnoticerow">
-                        <div class="S2noticeText" id="S2DnoticeText">
-                            <div class="S2subrow" id="S2Drow3-5">
-                                <div class="S2D3section" id="S2D310">
-                                    <p class="S2D3title">案件送簽性質</p>
-                                    <p class="S2D3content S2D3text">簽核</p>
-                                </div>
-                                <div class="S2D3section" id="S2D311">
-                                    <p class="S2D3content S2D3text">本案經評分卡核准，需經一位適當層級授信人員簽核</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="S2notice" id="S2Dnotice">
-                            <img src="assets//media//S2A12.png">
-                        </div>
-                    </div>
-                    <div class="S2subrow" id="S2Drow4">
-                        <div id="S2D4section1"></div>
-                        <div class="S2tab">
-                            <button class="tablinks" onclick="creatProduct(event, 'FirstProduct')">01</button> <button class="tablinks" onclick="creatProduct(event, 'SecondProduct')">02</button> <button class="tablinks" onclick="creatProduct(event, 'ThirdProduct')">03</button>
-                        </div>
-                        <div class="S2tabcontent" id="FirstProduct">
-                            <div class="S2D4section2" id="S2D4section2-1">
-                                <div class="S2D42colume S2D42colume1" id="S2D42colume1-1">
-                                    <p class="S2D42title">貸款產品</p>
-                                    <select name="請選擇">
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                            </select>
-                                </div>
-                                <div class="S2D42colume S2D42colume2" id="S2D42colume2-1">
-                                    <p class="S2D42title">連保</p>
-                                </div>
-                                <div class="S2D42colume S2D42colume3" id="S2D42colume3-1">
-                                    <p class="S2D42title">一般</p>
-                                </div>
-                                <div class="S2D42colume S2D42colume4" id="S2D42colume4-1">
-                                    <p class="S2D42title">金額</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume5" id="S2D42colume5-1">
-                                    <p class="S2D42title">可使用額度</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume6" id="S2D42colume6-1">
-                                    <p class="S2D42title">總期數</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume7" id="S2D42colume7-1">
-                                    <p class="S2D42title">展期次數</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume8" id="S2D42colume8-1">
-                                    <p class="S2D42title">利率</p>
-                                    <p class="S2D42content S2D42text"></p>
-                                </div>
-                            </div>
-                            <div class="S2D4section3" id="S2D4section3-1">
-                                <div class="S2D43colume S2D43colume1" id="S2D43colume1-1">
-                                    <p class="S2D43">計算風險定價</p>
-                                    <p class="S2D43">計算全案收益</p>
-                                </div>
-                                <div class="S2D43colume S2D43colume2" id="S2D43colume2-1">
-                                    <p class="S2D43"></p>
-                                    <p class="S2D43"></p>
-                                </div>
-                                <div class="S2D43colume S2D43colume3" id="S2D43colume3-1">
-                                    <p class="S2D4325">資金用途別</p>
-                                    <select class="S2D4375 S2D43select1" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                    <p class="S2D4325">風險定價</p>
-                                    <p class="S2D4325">風險定價期數</p>
-                                    <select class="S2D4350 S2D43select" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                </div>
-                                <div class="S2D43colume S2D43colume4" id="S2D43colume4-1">
-                                    <p class="S2D4325">還款方式</p>
-                                    <select class="S2D4375 S2D43select1" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                    <p class="S2D4325">風險權數</p>
-                                    <p class="S2D4375">%</p>
-                                </div>
-                                <div class="S2D43colume S2D43colume5" id="S2D43colume5-1">
-                                    <p class="S2D4350">先收息期數</p><input class="S2D4350" type="text">
-                                    <p class="S2D43"></p>
-                                </div>
-                                <table border="1" class="tb-product table table-nonbordered dt-responsive nowrap S2D4section4" id="S2D4section4-1">
-                                    <tr>
-                                        <th>
-                                            <p>第</p>
-                                            <input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <p>第</p><input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <p>第</p><input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="S2tabcontent" id="SecondProduct">
-                            <div class="S2D4section2" id="S2D4section2-2">
-                                <div class="S2D42colume S2D42colume1" id="S2D42colume1-2">
-                                    <p class="S2D42title">貸款產品</p>
-                                    <select name="請選擇">
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                            </select>
-                                </div>
-                                <div class="S2D42colume S2D42colume2" id="S2D42colume2-2">
-                                    <p class="S2D42title">連保</p>
-                                </div>
-                                <div class="S2D42colume S2D42colume3" id="S2D42colume3-2">
-                                    <p class="S2D42title">一般</p>
-                                </div>
-                                <div class="S2D42colume S2D42colume4" id="S2D42colume4-2">
-                                    <p class="S2D42title">金額</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume5" id="S2D42colume5-2">
-                                    <p class="S2D42title">可使用額度</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume6" id="S2D42colume6-2">
-                                    <p class="S2D42title">總期數</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume7" id="S2D42colume7-2">
-                                    <p class="S2D42title">展期次數</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume8" id="S2D42colume8-2">
-                                    <p class="S2D42title">利率</p>
-                                    <p class="S2D42content S2D42text"></p>
-                                </div>
-                            </div>
-                            <div class="S2D4section3" id="S2D4section3-2">
-                                <div class="S2D43colume S2D43colume1" id="S2D43colume1-2">
-                                    <p class="S2D43">計算風險定價</p>
-                                    <p class="S2D43">計算全案收益</p>
-                                </div>
-                                <div class="S2D43colume S2D43colume2" id="S2D43colume2-2">
-                                    <p class="S2D43"></p>
-                                    <p class="S2D43"></p>
-                                </div>
-                                <div class="S2D43colume S2D43colume3" id="S2D43colume3-2">
-                                    <p class="S2D4325">資金用途別</p>
-                                    <select class="S2D4375 S2D43select1" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                    <p class="S2D4325">風險定價</p>
-                                    <p class="S2D4325">風險定價期數</p>
-                                    <select class="S2D4350 S2D43select" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                </div>
-                                <div class="S2D43colume S2D43colume4" id="S2D43colume4-2">
-                                    <p class="S2D4325">還款方式</p>
-                                    <select class="S2D4375 S2D43select1" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                    <p class="S2D4325">風險權數</p>
-                                    <p class="S2D4375">%</p>
-                                </div>
-                                <div class="S2D43colume S2D43colume5" id="S2D43colume5-2">
-                                    <p class="S2D4350">先收息期數</p><input class="S2D4350" type="text">
-                                    <p class="S2D43"></p>
-                                </div>
-                                <table border="1" class="tb-product table table-nonbordered dt-responsive nowrap S2D4section4" id="S2D4section4-2">
-                                    <tr>
-                                        <th>
-                                            <p>第</p><input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <p>第</p><input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <p>第</p><input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="S2tabcontent" id="ThirdProduct">
-                            <div class="S2D4section2" id="S2D4section2-3">
-                                <div class="S2D42colume S2D42colume1" id="S2D42colume1-3">
-                                    <p class="S2D42title">貸款產品</p>
-                                    <select name="請選擇">
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                                <option value="1">
-                                                    1
-                                                </option>
-                                            </select>
-                                </div>
-                                <div class="S2D42colume S2D42colume2" id="S2D42colume2-3">
-                                    <p class="S2D42title">連保</p>
-                                </div>
-                                <div class="S2D42colume S2D42colume3" id="S2D42colume3-3">
-                                    <p class="S2D42title">一般</p>
-                                </div>
-                                <div class="S2D42colume S2D42colume4" id="S2D42colume4-3">
-                                    <p class="S2D42title">金額</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume5" id="S2D42colume5-3">
-                                    <p class="S2D42title">可使用額度</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume6" id="S2D42colume6-3">
-                                    <p class="S2D42title">總期數</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume7" id="S2D42colume7-3">
-                                    <p class="S2D42title">展期次數</p><input class="S2D42text" type="text">
-                                </div>
-                                <div class="S2D42colume S2D42colume8" id="S2D42colume8-3">
-                                    <p class="S2D42title">利率</p>
-                                    <p class="S2D42content S2D42text"></p>
-                                </div>
-                            </div>
-                            <div class="S2D4section3" id="S2D4section3-3">
-                                <div class="S2D43colume S2D43colume1" id="S2D43colume1-3">
-                                    <p class="S2D43">計算風險定價</p>
-                                    <p class="S2D43">計算全案收益</p>
-                                </div>
-                                <div class="S2D43colume S2D43colume2" id="S2D43colume2-3">
-                                    <p class="S2D43"></p>
-                                    <p class="S2D43"></p>
-                                </div>
-                                <div class="S2D43colume S2D43colume3" id="S2D43colume3-3">
-                                    <p class="S2D4325">資金用途別</p>
-                                    <select class="S2D4375 S2D43select1" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                    <p class="S2D4325">風險定價</p>
-                                    <p class="S2D4325">風險定價期數</p>
-                                    <select class="S2D4350 S2D43select" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                </div>
-                                <div class="S2D43colume S2D43colume4" id="S2D43colume4-3">
-                                    <p class="S2D4325">還款方式</p>
-                                    <select class="S2D4375 S2D43select1" name="請選擇">
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                            <option value="1">
-                                                1
-                                            </option>
-                                        </select>
-                                    <p class="S2D4325">風險權數</p>
-                                    <p class="S2D4375">%</p>
-                                </div>
-                                <div class="S2D43colume S2D43colume5" id="S2D43colume5-3">
-                                    <p class="S2D4350">先收息期數</p><input class="S2D4350" type="text">
-                                    <p class="S2D43"></p>
-                                </div>
-                                <table border="1" class="tb-product table table-nonbordered dt-responsive nowrap S2D4section4" id="S2D4section4-3">
-                                    <tr>
-                                        <th>
-                                            <p>第</p><input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <p>第</p><input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                    <tr>
-                                        <th>
-                                            <p>第</p><input class="S2D42text" type="text">
-                                            <p>期起</p>
-                                        </th>
-                                        <th>固定</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>機動</th>
-                                        <th><select class="S2D42select" name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th><select name="請選擇">
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                </select></th>
-                                        <th>
-                                            <input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                        <th>
-                                            <p>目前利率</p><input class="S2D42text" type="text">
-                                            <p>%</p>
-                                        </th>
-                                    </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-       
-    
+
+
+
                 </section>
 
 
@@ -1889,7 +2210,8 @@ function SwitchPages(page, side) {
         $content.html(newContentHtml);
     } else if (page == 'loan') {
         // 核貸書
-        const newContentHtml = `              <div id="Doc-Loan" class="doc-loan">
+        const newContentHtml = `              
+        <div id="Doc-Loan" class="doc-loan">
         <div class="indexBar">
             <div class="indexTitle">
                 <p class="first-word"> 核貸書 </p>
@@ -1912,140 +2234,209 @@ function SwitchPages(page, side) {
 
             <div id="Main" class="lnPart">
                 <div class="ln-partTitle">
-                    <img class="ln-shrink shrink0 minus0" src="assets/media/minus.png" alt="">
-                    <img class="ln-shrink shrink0 plus0 off" src="assets/media/plus.png" alt="">
+                    <img class="ln-shrink shrink0 minus0" src="assets/media/minus.png"
+                        alt="">
+                    <img class="ln-shrink shrink0 plus0 off" src="assets/media/plus.png"
+                        alt="">
                     <p style="display:inline-block">核貸書大綱</p>
                 </div>
 
                 <div id="lnPartMainContent">
 
                     <div id="MainCard-1" class="manyCards d-flex flex-wrap">
-                        <div class="cardItem cardcontainer flex-fill padding-2">
-                            <div class="cardTitle-main">
-                                <a href="#p3-2">
+                        <div class="cardItem cardcontainer flex-fill padding-2" id="final">
+                            <a href="#p3-2">
+
+                                <div class="cardTitle-main">
                                     <p>簽核結果 : </p>
-                                </a>
-                            </div>
-                            <div class="cardWord-main lnCard-icon">
-                                <img src="assets/media/S2A09.png" alt="">
-                            </div>
+
+                                </div>
+                                <div class="cardWord-main lnCard-icon">
+                                    <img src="https://i.imgur.com/44c2I5I.png" alt="">
+                                </div>
+                            </a>
                         </div>
 
-                        <div class="cardItem cardcontainer flex-fill padding-2">
-                            <div class="cardTitle-main ">
-                                <a href="#ln-part-1">
+                        <div class="cardItem cardcontainer flex-fill padding-2" id="final1">
+                            <a href="#ln-part-1">
+
+                                <div class="cardTitle-main ">
                                     <p>用途別 : </p>
-                                </a>
-                            </div>
-                            <div class="cardWord-main cd">
-                                <div class="cardWord-main lnCard-icon-family">
-                                    <img src="assets/media/family.png" alt="">
                                 </div>
-                                <div class="family-word">
+                                <div class="cardWord-main cd">
+                                    <div class="cardWord-main lnCard-icon-family">
+                                        <img src="assets/media/family.png" alt="">
+                                    </div>
+                                    <div class="family-word">
 
-                                    <p class="cdfamilyWord">家庭週轉金 </p>
+                                        <p class="cdfamilyWord">家庭週轉金 </p>
 
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
+
                         </div>
 
-                        <div class="cardItem  cardcontainer flex-fill padding-2">
-                            <div class="cardTitle-main">
-                                <a href="#p3-2">
+                        <div class="cardItem  cardcontainer flex-fill padding-2"
+                            id="final2">
+                            <a href="#p3-2">
+
+                                <div class="cardTitle-main">
                                     <p>建議額度 / 申貸總金額 : </p>
-                                </a>
-                            </div>
-                            <div class="cardWord-main cd">
-                                <p class="cdbigWord" style="display:inline-block"> NT $ 60000 </p>
-                                <p style="display:inline-block"> / NT $ 190000 </p>
-                            </div>
+                                </div>
+                                <div class="cardWord-main cd">
+                                    <p class="cdbigWord" style="display:inline-block"> NT $
+                                        60000 </p>
+                                    <p style="display:inline-block"> / NT $ 190000 </p>
+                                </div>
+                            </a>
+
                         </div>
                     </div>
 
                     <div id="MainCard-2">
                         <div class="d-flex">
-                            <div class="d-flex flex-fill main-money flex-wrap">
-                                <div class="cardItem sm-card flex-fill">
-                                    <div class="bg-gray-1">
-                                        <a href="#lnSummary">
+                            <div class="d-flex main-money flex-wrap ">
+                                <div
+                                    class=" cardcontainer2 cardItem sm-card flex-fill padding-10">
+                                    <a href="#lnSummary">
+
+                                        <div class="cardTitle-main padding-1002">
                                             <p>月收入</p>
-                                        </a>
-                                    </div>
-                                    <div class="exp-icon">
-                                        <p>NT $ 30,897</p>
-                                        <!-- <img src="assets/media/exp3.png" alt=""> -->
-                                    </div>
+                                        </div>
+                                        <div class="cardP-main">
+                                            <p>NT $ 30,897</p>
+                                        </div>
+                                    </a>
+
                                 </div>
-                                <div class="cardItem sm-card flex-fill">
-                                    <div class="bg-gray-1">
-                                        <a href="#lnSummary">
+                                <div
+                                    class=" cardcontainer2 cardItem sm-card flex-fill padding-10">
+                                    <a href="#lnSummary">
+
+                                        <div class="cardTitle-main padding-1002">
                                             <p>月支出</p>
-                                        </a>
-                                    </div>
+                                        </div>
+                                        <div class="cardP-main">
+                                            <p>NT $ 27,880</p>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <!-- <div class="cardItem cardcontainer flex-fill padding-2">
+                                                <div class="cardTitle-main">
+                                                    <a href="#p3-2">
+                                                        <p>簽核結果 : </p>
+                                                    </a>
+                                                </div>
+                                                <div class="cardWord-main lnCard-icon">
+                                                    <img src="assets/media/S2A09.png" alt="">
+                                                </div>
+                                            </div> -->
+
+
+                            <div class="cardItem sm-card cardcontainer2   flex-fill ">
+
+                                <a href="#lnSummary">
+
                                     <div class="exp-icon">
-                                        <p>NT $ 27,880</p>
-                                        <!-- <img src="assets/media/exp3.png" alt=""> -->
+                                        <div class="single-chart">
+                                            <svg viewBox="0 0 36 36"
+                                                class="circular-chart blue">
+                                                <path class="circle-bg"
+                                                    d="M18 2.0845
+                                                                              a 15.9155 15.9155 0 0 1 0 31.831
+                                                                              a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <path class="circle"
+                                                    stroke-dasharray="34.78, 100"
+                                                    d="M18 2.0845
+                                                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <text x="18" y="20.35"
+                                                    class="percentage">34.78%</text>
+                                            </svg>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="cardItem sm-card flex-fill">
-                                <div class="bg-white">
-                                    <a href="#lnSummary">
+                                    <div class="bg-white">
                                         <p>本次貸款支出/總月收入</p>
-                                    </a>
-                                </div>
-                                <!-- <div class="cardTitle-main ">
-                                                    <p>本次貸款支出/總月收入 </p>
-                                                </div> -->
-                                <div class="exp-icon">
-                                    <img src="assets/media/exp1.png" alt="">
-                                </div>
-                            </div>
 
-                            <div class="cardItem sm-card flex-fill">
-                                <div class="bg-white">
-                                    <a href="#lnSummary">
-                                        <p>總貸款支出/總月收入</p>
-                                    </a>
-                                </div>
-                                <!-- <div class="cardTitle-main ">
-                                                    <p>總貸款支出/總月收入</p>
-                                                    <p> (負債比) </p>
-                                                </div> -->
-                                <div class="exp-icon">
-                                    <img src="assets/media/exp2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="cardItem sm-card flex-fill">
-                                <div class="bg-white">
-                                    <a href="#lnSummary">
-                                        <p>總月支出/總月收入</p>
-                                    </a>
-                                </div>
-                                <!-- <div class="cardTitle-main ">
-                                                    <p>總月支出/總月收入</p>
-                                                </div> -->
-
-                                <div class="exp-icon">
-                                    <img src="assets/media/exp3.png" alt="">
-                                </div>
-                            </div>
-                            <div class="cardItem sm-card flex-fill">
-                                <div class="bg-white">
-                                    <a href="#ln-part-1">
-                                        <p>風險權數</p>
-                                    </a>
-                                </div>
-                                <!-- <div class="cardTitle-main ">
-                                                        <p>總月支出/總月收入</p>
-                                                    </div> -->
-
-                                <div class="exp-icon">
-                                    <div class="exp-p">
-                                        <p>75</p>
                                     </div>
-                                    <!-- <img src="assets/media/exp3.png" alt=""> -->
-                                </div>
+                                </a>
+                            </div>
+
+                            <div class="cardItem sm-card cardcontainer2   flex-fill">
+                                <a href="#lnSummary">
+
+
+                                    <div class="exp-icon">
+
+                                        <div class="single-chart">
+                                            <svg viewBox="0 0 36 36"
+                                                class="circular-chart blue">
+                                                <path class="circle-bg"
+                                                    d="M18 2.0845
+                                                                                          a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <path class="circle"
+                                                    stroke-dasharray="34.48, 100"
+                                                    d="M18 2.0845
+                                                                                            a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                            a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <text x="18" y="20.35"
+                                                    class="percentage">34.48%</text>
+                                            </svg>
+                                        </div>
+
+                                    </div>
+                                    <div class="bg-white">
+                                        <p>總貸款支出/總月收入</p>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="cardItem sm-card cardcontainer2   flex-fill">
+
+                                <a href="#lnSummary">
+
+                                    <div class="exp-icon">
+                                        <div class="single-chart">
+                                            <svg viewBox="0 0 36 36"
+                                                class="circular-chart blue">
+                                                <path class="circle-bg"
+                                                    d="M18 2.0845
+                                                                                      a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <path class="circle"
+                                                    stroke-dasharray="90.26, 100"
+                                                    d="M18 2.0845
+                                                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <text x="18" y="20.35"
+                                                    class="percentage">90.26%</text>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white">
+                                        <p>總月支出/總月收入</p>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="cardItem sm-card cardcontainer2 ">
+                                <a href="#ln-part-1">
+
+                                    <div class="exp-icon">
+                                        <div class="exp-p">
+                                            <p>75</p>
+                                        </div>
+
+                                    </div>
+                                    <div class="bg-white">
+                                        <p>風險權數</p>
+                                    </div>
+                                </a>
+
                             </div>
 
                         </div>
@@ -2057,8 +2448,10 @@ function SwitchPages(page, side) {
 
             <div id="ln-part-1" class="lnPart">
                 <div class="ln-partTitle">
-                    <img class="ln-shrink shrink1 minus1" src="assets/media/minus.png" alt="">
-                    <img class="ln-shrink shrink1 plus1 off" src="assets/media/plus.png" alt="">
+                    <img class="ln-shrink shrink1 minus1" src="assets/media/minus.png"
+                        alt="">
+                    <img class="ln-shrink shrink1 plus1 off" src="assets/media/plus.png"
+                        alt="">
                     <!-- <p class="ln-shrink shrink1 plus">+</p> -->
                     <!-- <p class="ln-shrink shrink1 minus">-</p> -->
                     <p style="display:inline-block">Part 1 - 借貸資訊</p>
@@ -2145,7 +2538,7 @@ function SwitchPages(page, side) {
                                 <p>風險定價 : </p>
                             </div>
                             <div class="cardWord">
-                                <img src="assets/media/S2A09.png" alt="">
+                                <img src="https://i.imgur.com/44c2I5I.png" alt="">
                                 <!-- <p> *勾勾勾 </p> -->
                             </div>
                         </div>
@@ -2213,8 +2606,7 @@ function SwitchPages(page, side) {
                                 <p>保證人提供 : </p>
                             </div>
                             <div class="cardWord">
-                                <img src="assets/media/S2A10.png" alt="">
-
+                                <img src="assets/media/S2No.png">
                             </div>
 
                         </div>
@@ -2237,36 +2629,37 @@ function SwitchPages(page, side) {
 
                     </div>
                     <!-- <table id="example" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Extn.</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Extn.</th>
-                        <th>Start date</th>
-                        <th>Salary</th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <th>Name</th>
-                        <th colspan="5">休息時間</th>
-                        <th></th>
-                    </tr>
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Position</th>
+                                            <th>Office</th>
+                                            <th>Extn.</th>
+                                            <th>Start date</th>
+                                            <th>Salary</th>
+                                            <th></th>
+                                        </tr>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Position</th>
+                                            <th>Office</th>
+                                            <th>Extn.</th>
+                                            <th>Start date</th>
+                                            <th>Salary</th>
+                                            <th></th>
+                                        </tr>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th colspan="5">休息時間</th>
+                                            <th></th>
+                                        </tr>
 
-                </thead>
+                                    </thead>
 
-            </table> -->
+                                </table> -->
                     <div class="tb-container">
-                        <table class="tb-money table table-bordered  dt-responsive nowrap" border="1">
+                        <table class="tb-money table table-bordered  dt-responsive nowrap"
+                            border="1">
                             <tr>
                                 <th>A 放款利率</th>
                                 <th colspan="3">- B 參考價格</th>
@@ -2303,7 +2696,8 @@ function SwitchPages(page, side) {
                     </div>
 
                     <div class="tb-container">
-                        <table class="tb-money2 table table-bordered dt-responsive nowrap" border="1">
+                        <table class="tb-money2 table table-bordered dt-responsive nowrap"
+                            border="1">
                             <tr>
                                 <th>風險性資產</th>
                                 <td>NT $ 70000</td>
@@ -2319,8 +2713,10 @@ function SwitchPages(page, side) {
             </div>
             <div id="ln-part-2" class="lnPart">
                 <div class="ln-partTitle">
-                    <img class="ln-shrink shrink2 minus2 " src="assets/media/minus.png" alt="">
-                    <img class="ln-shrink shrink2 plus2 off" src="assets/media/plus.png" alt="">
+                    <img class="ln-shrink shrink2 minus2 " src="assets/media/minus.png"
+                        alt="">
+                    <img class="ln-shrink shrink2 plus2 off" src="assets/media/plus.png"
+                        alt="">
 
                     <!-- <p class="ln-shrink shrink2">+</p> -->
                     <p style="display:inline-block">Part 2 - 借貸人背景</p>
@@ -2349,7 +2745,8 @@ function SwitchPages(page, side) {
                             <div id="lnSummary">
 
                                 <div class="ln-summary">
-                                    <div class="ln-summary-word d-flex justify-content-around">
+                                    <div
+                                        class="ln-summary-word d-flex justify-content-around">
                                         <div class="width33">
                                             <p>總結餘 : $3008</p>
                                         </div>
@@ -2368,7 +2765,7 @@ function SwitchPages(page, side) {
                             <div class="ln-repayment row">
                                 <div class="income col no-padding">
                                     <div class="row">
-                                        <div class='cardItem col mainCard-1'>
+                                        <div class='cardItem col' id="mainCard-1">
                                             <p>主借款人</p>
                                         </div>
                                     </div>
@@ -2445,7 +2842,7 @@ function SwitchPages(page, side) {
 
                                 <div class='pay col no-padding'>
                                     <div class="d-flex">
-                                        <div class='cardItem flex-fill mainCard-2'>
+                                        <div class='cardItem flex-fill ' id="mainCard-2">
                                             <p>每月支出</p>
                                         </div>
                                     </div>
@@ -2495,10 +2892,24 @@ function SwitchPages(page, side) {
                                                 <p>本次貸款支出/總月收入</p>
                                             </div>
                                             <!-- <div class="cardTitle-main ">
-                                            <p>本次貸款支出/總月收入 </p>
-                                        </div> -->
+                                                                <p>本次貸款支出/總月收入 </p>
+                                                            </div> -->
                                             <div class="exp-icon">
-                                                <img src="assets/media/exp1.png" alt="">
+                                                <svg viewBox="0 0 36 36"
+                                                    class="circular-chart blue"
+                                                    style="width:40%">
+                                                    <path class="circle-bg"
+                                                        d="M18 2.0845
+                                                                              a 15.9155 15.9155 0 0 1 0 31.831
+                                                                              a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="circle"
+                                                        stroke-dasharray="34.78, 100"
+                                                        d="M18 2.0845
+                                                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <text x="18" y="20.35"
+                                                        class="percentage">34.78%</text>
+                                                </svg>
                                             </div>
                                         </div>
                                         <div class="cardItem sm-card flex-fill">
@@ -2507,7 +2918,21 @@ function SwitchPages(page, side) {
                                             </div>
 
                                             <div class="exp-icon">
-                                                <img src="assets/media/exp2.png" alt="">
+                                                <svg viewBox="0 0 36 36"
+                                                    class="circular-chart blue"
+                                                    style="width:40%">
+                                                    <path class="circle-bg"
+                                                        d="M18 2.0845
+                                                                                          a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="circle"
+                                                        stroke-dasharray="34.48, 100"
+                                                        d="M18 2.0845
+                                                                                            a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                            a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <text x="18" y="20.35"
+                                                        class="percentage">34.48%</text>
+                                                </svg>
                                             </div>
                                         </div>
                                         <div class="cardItem sm-card flex-fill">
@@ -2517,7 +2942,21 @@ function SwitchPages(page, side) {
 
 
                                             <div class="exp-icon">
-                                                <img src="assets/media/exp3.png" alt="">
+                                                <svg viewBox="0 0 36 36"
+                                                    class="circular-chart blue"
+                                                    style="width:40%">
+                                                    <path class="circle-bg"
+                                                        d="M18 2.0845
+                                                                                      a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <path class="circle"
+                                                        stroke-dasharray="90.26, 100"
+                                                        d="M18 2.0845
+                                                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                    <text x="18" y="20.35"
+                                                        class="percentage">90.26%</text>
+                                                </svg>
                                             </div>
                                         </div>
 
@@ -2544,8 +2983,10 @@ function SwitchPages(page, side) {
             </div>
             <div id="ln-part-3" class="lnPart">
                 <div class="ln-partTitle">
-                    <img class="ln-shrink shrink3 minus3 " src="assets/media/minus.png" alt="">
-                    <img class="ln-shrink shrink3 plus3 off" src="assets/media/plus.png" alt="">
+                    <img class="ln-shrink shrink3 minus3 " src="assets/media/minus.png"
+                        alt="">
+                    <img class="ln-shrink shrink3 plus3 off" src="assets/media/plus.png"
+                        alt="">
 
                     <!-- <p class="ln-shrink shrink2">+</p> -->
                     <p style="display:inline-block">Part 3 - 案件批覆</p>
@@ -2586,7 +3027,8 @@ function SwitchPages(page, side) {
                                     <p>本次貸款支出調整為 : </p>
                                 </div>
                                 <div class="cdP2-word padding-2">
-                                    <p class="" style="color:rgb(9, 33, 113);">NT $ 6141 </p>
+                                    <p class="" style="color:rgb(9, 33, 113);">NT $ 6141
+                                    </p>
                                 </div>
                             </div>
                             <div class="cardItem-2 padding-2-2 bg-yellow flex-fill">
@@ -2594,7 +3036,8 @@ function SwitchPages(page, side) {
                                     <p>致當月結餘金額為 </p>
                                 </div>
                                 <div class="cdP2-word padding-2">
-                                    <p class="" style="color:rgb(9, 33, 113);"> NT $ 7614 </p>
+                                    <p class="" style="color:rgb(9, 33, 113);"> NT $ 7614
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -2605,20 +3048,59 @@ function SwitchPages(page, side) {
                                     <div class="width33">
                                         <p>本次貸款支出/總月收入</p>
                                         <div class="exp-icon">
-                                            <img src="assets/media/improve-1.png" alt="">
+                                            <svg viewBox="0 0 36 36"
+                                                class="circular-chart blue">
+                                                <path class="circle-bg"
+                                                    d="M18 2.0845
+                                                                              a 15.9155 15.9155 0 0 1 0 31.831
+                                                                              a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <path class="circle"
+                                                    stroke-dasharray="34.78, 100"
+                                                    d="M18 2.0845
+                                                                                a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <text x="18" y="20.35"
+                                                    class="percentage">34.78%</text>
+                                            </svg>
                                         </div>
                                     </div>
 
                                     <div class="width33">
                                         <p>總貸款支出/總月收入</p>
                                         <div class="exp-icon">
-                                            <img src="assets/media/improve-2.png" alt="">
+                                            <svg viewBox="0 0 36 36"
+                                                class="circular-chart blue">
+                                                <path class="circle-bg"
+                                                    d="M18 2.0845
+                                                                                          a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                          a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <path class="circle"
+                                                    stroke-dasharray="34.48, 100"
+                                                    d="M18 2.0845
+                                                                                            a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                            a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <text x="18" y="20.35"
+                                                    class="percentage">34.48%</text>
+                                            </svg>
                                         </div>
                                     </div>
                                     <div class="width33">
                                         <p>總月支出/總月收入</p>
                                         <div class="exp-icon">
-                                            <img src="assets/media/improve-3.png" alt="">
+                                            <svg viewBox="0 0 36 36"
+                                                class="circular-chart blue">
+                                                <path class="circle-bg"
+                                                    d="M18 2.0845
+                                                                                      a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                      a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <path class="circle"
+                                                    stroke-dasharray="90.26, 100"
+                                                    d="M18 2.0845
+                                                                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                                                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                                <text x="18" y="20.35"
+                                                    class="percentage">90.26%</text>
+                                            </svg>
                                         </div>
                                     </div>
                                 </div>
@@ -2694,7 +3176,7 @@ function SwitchPages(page, side) {
                                     <p>簽核結果 : </p>
                                 </div>
                                 <div class="cardWord">
-                                    <img src="assets/media/S2A09.png" alt="">
+                                    <img src="assets/media/S2No.png">
 
                                 </div>
                             </div>
@@ -2726,7 +3208,9 @@ function SwitchPages(page, side) {
                     </div>
                     <div class="P3-3">
                         <div class="tb-container">
-                            <table class="tb-money table table-bordered  dt-responsive nowrap" border="1">
+                            <table
+                                class="tb-money table table-bordered  dt-responsive nowrap"
+                                border="1">
                                 <tr>
                                     <th>A 放款利率</th>
                                     <th colspan="3">- B 參考價格</th>
@@ -2762,7 +3246,9 @@ function SwitchPages(page, side) {
                             </table>
                         </div>
                         <div class="tb-container">
-                            <table class="tb-loan table table-bordered  dt-responsive nowrap" border="1">
+                            <table
+                                class="tb-loan table table-bordered  dt-responsive nowrap"
+                                border="1">
                                 <tr>
                                     <th></th>
                                     <th>姓名</th>
@@ -2776,7 +3262,7 @@ function SwitchPages(page, side) {
                                     <th>簽核日期</th>
                                 </tr>
                                 <tr>
-                                    <th>實際簽核人員</th>
+                                    <th class="S2bgGray">實際簽核人員</th>
                                     <th>王大明</th>
                                     <th>消金業務部</th>
                                     <th>消金業務推廣</th>
@@ -2788,7 +3274,7 @@ function SwitchPages(page, side) {
                                     <th rowspan="2">2019/01/09 17:24</th>
                                 </tr>
                                 <tr>
-                                    <th>實際簽核人員</th>
+                                    <th class="S2bgGray">實際簽核人員</th>
                                     <th>王大明</th>
                                     <th>消金業務部</th>
                                     <th>消金業務推廣</th>
