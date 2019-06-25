@@ -3624,8 +3624,66 @@ var S2A203 = 1;
 var S2A202 = 1;
 var S2A208 = 1;
 var S2test = 1;
+var set = 1;
+var countMax = 120;
 
 function notice() {
+    $("#S2promptSet").click(function () {
+        if (window.set == 1) {
+            $("#S2promptSetWindow").animate({
+                height: "300px"
+            });
+            window.set = 0;
+        } else if (window.set == 0) {
+            $("#S2promptSetWindow").animate({
+                height: "0px"
+            });
+            window.set = 1;
+        }
+    });
+
+    $("#S2promptAdd").click(function () {
+        var promptInput = $('#S2promptInput').val();
+        addTag(promptInput);
+
+    });
+
+
+
+    $('#S2promptDatabase').on('click', '.S2promptDel', function () {
+        var remPromptId = this.id;
+        var split_id = remPromptId.split("_");
+        var deleteindex = split_id[1];
+        var txtID = "#txt_" + deleteindex;
+        let tag = $(txtID).text();
+        console.log(tag)
+        delTag(tag)
+
+
+    });
+
+
+
+
+
+    countThis = $('.inputCount');
+
+    countThis.find('.count').text(countMax);
+
+    countThis.find('textarea').on('keydown keyup keypress change', function () {
+        var thisValueLength = $(this).val().length,
+            countDown = countMax - thisValueLength;
+        countThis.find('.count').text(countDown);
+
+        if (countDown < 0) {
+            countThis.find('.count').addClass('countBelow');
+        } else {
+            countThis.find('.count').removeClass('countBelow');
+        }
+    });
+
+
+
     $("#analysisItem_1").click(function () {
         if ($("#analysisItem_1").prop("checked")) {
             $("#analysis1").show();
@@ -3949,60 +4007,11 @@ $(".analysis-bt").click(function () {
         window.analysis = 1;
     }
 });
-var set = 1;
-$("#S2promptSet").click(function () {
-    if (window.set == 1) {
-        $("#S2promptSetWindow").animate({
-            height: "300px"
-        });
-        window.set = 0;
-    } else if (window.set == 0) {
-        $("#S2promptSetWindow").animate({
-            height: "0px"
-        });
-        window.set = 1;
-    }
-});
-
-
-$("#S2promptAdd").click(function () {
-    var promptInput = $('#S2promptInput').val();
-    addTag(promptInput);
-
-});
 
 
 
-$('#S2promptDatabase').on('click', '.S2promptDel', function () {
-    var remPromptId = this.id;
-    var split_id = remPromptId.split("_");
-    var deleteindex = split_id[1];
-    var txtID = "#txt_" + deleteindex;
-    let tag = $(txtID).text();
-    console.log(tag)
-    delTag(tag)
 
 
-});
-
-
-
-var countMax = 120,
-    countThis = $('.inputCount');
-
-countThis.find('.count').text(countMax);
-
-countThis.find('textarea').on('keydown keyup keypress change', function () {
-    var thisValueLength = $(this).val().length,
-        countDown = countMax - thisValueLength;
-    countThis.find('.count').text(countDown);
-
-    if (countDown < 0) {
-        countThis.find('.count').addClass('countBelow');
-    } else {
-        countThis.find('.count').removeClass('countBelow');
-    }
-});
 
 
 
