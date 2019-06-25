@@ -29,6 +29,19 @@ $(document).ready(function () {
     // tag();
     save();
     shrinkclick();
+
+    var $monthPay = $('#monthPay').html();
+    $("#analysis_monthPay").empty();
+    $("#analysis_monthPay").append($monthPay);
+    var $money = $('#money').html();
+    $("#analysis_money").empty();
+    $("#analysis_money").append($money);
+    var $riskAsset = $('#riskAsset').html();
+    $("#analysis_riskAsset").empty();
+    $("#analysis_riskAsset").append($riskAsset);
+    var $commandMoney = $('#commandMoney').html();
+    $("#analysis_commandMoney").empty();
+    $("#analysis_commandMoney").append($commandMoney);
     window.onload = function () {
         var olink1 = document.getElementById("S1A7content1");
         var olink2 = document.getElementById("S1A7content2");
@@ -88,6 +101,8 @@ $(document).ready(function () {
         checkS2AWidth();
         shrinkclick();
     });
+
+
     $("body").delegate(".record", "click", function (e) {
 
         var page = "record";

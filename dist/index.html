@@ -129,24 +129,24 @@
                 <div id="analysis" class="analysis S2column">
                     <div id="analysis-chart" class="S2spaceAround S2row S2end">
                         <div class="analysis-chart S2Tcenter S2column" id="analysis1">
-                            <p class="ana-val">14514</p>
+                            <div class="ana-val" id="analysis_monthPay"></div>
                             <div id="box1" style="background:#98bf21;height:100px;width:100px;margin:6px;"></div>
                             <p class="ana-tilte">月付金</p>
                         </div>
                         <div class="analysis-chart S2Tcenter S2column" id="analysis2">
-                            <p class="ana-val">700000</p>
+                            <p class="ana-val" id="analysis_money"></p>
 
 
                             <div id="box2" style="background:#219abf;height:300px;width:100px;margin:6px;"></div>
                             <p class="ana-tilte">貨款金額</p>
                         </div>
                         <div class="analysis-chart S2Tcenter S2column" id="analysis3">
-                            <p class="ana-val">522375</p>
+                            <p class="ana-val" id="analysis_riskAsset"></p>
                             <div id="box3" style="background:#bf4121;height:250px;width:100px;margin:6px;"></div>
                             <p class="ana-tilte">風險性資產</p>
                         </div>
                         <div class="analysis-chart S2Tcenter S2column" id="analysis4">
-                            <p class="ana-val">70000</p>
+                            <p class="ana-val" id="analysis_commandMoney"></p>
                             <div id="box4" style="background:gray;height:300px;width:100px;margin:6px;"></div>
                             <p class="ana-tilte">建議額度</p>
                         </div>
@@ -330,19 +330,19 @@
                                 <img class="modify-bt functionbt" title="修改核貸書" src="assets/media/S2A20.png">
                                 <div class="analysis">
                                     <div class="analysiscol" id="analysis1">
-                                        <p class="ana-val">14514</p>
+                                        <p class="ana-val" id="monthPay">14514</p>
                                         <div id="box1" style="background:#98bf21;height:100px;width:100px;margin:6px;">
                                         </div>
                                         <p class="ana-tilte">月付金</p>
                                     </div>
                                     <div class="analysiscol" id="analysis2">
-                                        <p class="ana-val">700,000</p>
+                                        <p class="ana-val" id="money">700,000</p>
                                         <div id="box2" style="background:#219abf;height:300px;width:100px;margin:6px;">
                                         </div>
                                         <p class="ana-tilte">貨款金額</p>
                                     </div>
                                     <div class="analysiscol" id="analysis3">
-                                        <p class="ana-val">522,375</p>
+                                        <p class="ana-val" id="riskAsset">522,375</p>
                                         <div id="box3" style="background:#bf4121;height:250px;width:100px;margin:6px;">
                                         </div>
                                         <p class="ana-tilte">風險性資產</p>
@@ -791,7 +791,8 @@
                                                             </div>
                                                             <div class="S2item1 flex-fill S2row S2baseline" id="S2B604">
                                                                 <p class="S2title S2title1">建議額度</p>
-                                                                <p class="S2content S2content1">700000</p>
+                                                                <p class="S2content S2content1" id="commandMoney">700000
+                                                                </p>
                                                             </div>
                                                         </div>
 
@@ -1040,7 +1041,7 @@
                                                                 <p class="S2title S2title3">本次貸款支出調整為</p>
                                                                 <div class="">
                                                                     <input class=" S2content S2text1 S2Tcenter"
-                                                                        type="text">
+                                                                        type="text" name="pay_afterAdjust">
                                                                 </div>
                                                             </div>
                                                             <div class="S2baseline S2row S2spaceBetween S2item2"
